@@ -24,7 +24,7 @@ library(RBNZ)
 
 # RBNZ
 
-This package provides access to the datasets published by the Reserve Bank of New Zealand (RBNZ). The statistics page of their website is https://www.rbnz.govt.nz/statistics. A summary of the available data can be found at the end of this document. On the RBNZ webite the data is made available in .xlsx and .xls files; this package will download those files and read them into R.
+This package provides access to the datasets published by the Reserve Bank of New Zealand (RBNZ). The statistics page of their website is https://www.rbnz.govt.nz/statistics. A summary of the available data can be found at the end of this document. On the RBNZ website the data is made available in .xlsx and .xls files; this package will download those files and read them into R.
 
 The author has no affiliation with the RBNZ. The copyright for the data can be found at https://www.rbnz.govt.nz/copyright.
 

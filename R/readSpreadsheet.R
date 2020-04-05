@@ -8,9 +8,9 @@
 ##'                    reading it.
 ##' 
 ##' @return The contents of the spreadsheet. For most series this will be in the
-##'         form of a list of two data frames (or tibbles), one called "data" and
-##'         the other "meta". For some series (see specialCases()), the data is not
-##'         in the standard format as the rest and so is just returned directly as
+##'         form of a list of two data frames, one called "data" and the other
+##'         "meta". For some series (see specialCases()), the data is not in the
+##'         standard format as the rest and so is just returned directly as
 ##'         the results of read_xlsx for each sheet in the spreadsheet.
 ##' 
 ##' @author Jasper Watson
