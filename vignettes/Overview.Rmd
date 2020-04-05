@@ -41,9 +41,9 @@ b1 <- getSeries('B1')
 plot(b1$data$Date, b1$data$UK_pound_sterling, type = 'l')
 ```
 
-Some of the datasets have different available formats. For example the B1 series contains exchange rate data in both daily and monthly form. The second argument of `getSeries` allows the user to specify which option they want. e.g. `getSeries('B1', 'monthly')`.
+Some of the datasets have different available formats. For example the B1 series contains exchange rate data in both daily and monthly form. The second argument of `getSeries` allows the user to specify which option they want, e.g. `getSeries('B1', 'monthly')`.
 
-Each series has a help file so typing `?B1` and such like will tell you what options, if any, are available.
+Each series has a help file so typing, for example `?B1`, will tell you what options, if any, are available.
 
 For a full description of the arguments of `getSeries`, see the package manual.
 

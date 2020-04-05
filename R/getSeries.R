@@ -1,5 +1,5 @@
 ##' Main Interface for the RBNZ Package.
-##'
+##' 
 ##' Retrieves data from \url{https://www.rbnz.govt.nz/statistics} for the series
 ##' specified by the user.
 ##' 
@@ -19,15 +19,15 @@
 ##'                spreadsheets. If not specified they will be placed into tempdir()
 ##'                and deleted on exit.
 ##' @param quiet Logical to be passed to utils::download.file.
-##'
+##' 
 ##' @return For most series a list containing the fields "meta" and "data" which
 ##'         are data frames containing the metadata and actual data, respectively.
 ##'         There are a few series that do not follow this format, and for these
 ##'         the spreadsheets are just downloaded and read into a list of data
 ##'         frames, one for each sheet, with no organising or cleaning.
-##'
+##' 
 ##' @author Jasper Watson
-##'
+##' 
 ##' @export
 ##' 
 ##
