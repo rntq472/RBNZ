@@ -2,10 +2,8 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{D35}
 \alias{D35}
-\title{D35}
-\arguments{
-\item{option}{Allowed values are "" (default) and "".}
-}
+\title{D35 - Holdings of Kauri bonds (nominal value)}
 \description{
-See \url{} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/d35} for a full description.
 }
+\keyword{internal}

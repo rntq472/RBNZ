@@ -7,6 +7,13 @@
 See \url{https://www.rbnz.govt.nz/statistics/b13} for a full description.
 }
 \note{
-The historical data is split across multiple files at source. We download all
-      of them and merge together to form a complete history.
+The historical data is split across multiple files at source. We download
+      all of them and merge together into a single data frame, but note that
+      unlike with most of the other series available here it is not a simple
+      matter of rbind-ing all the data together. The composition of the TWI
+      changed in December 2014 but there were some components that were present
+      both before and after, for example Australia. These are returned as
+      separate fields in the output rather than combining them into a single
+      entry.
 }
+\keyword{internal}

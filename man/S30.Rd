@@ -4,5 +4,7 @@
 \alias{S30}
 \title{S30 - Banks: Assets - Loans by sector}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/s30-banks-assets-loans-by-sector} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/s30-banks-assets-loans-by-sector}
+for a full description.
 }
+\keyword{internal}

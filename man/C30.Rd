@@ -2,14 +2,17 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{C30}
 \alias{C30}
-\title{C30 - New residential mortgage lending by loan-to-valuation ratio (LVR) compliance data}
+\title{C30 - New residential mortgage lending by loan-to-valuation ratio (LVR)
+compliance data}
 \arguments{
-\item{option}{Allowed values are "" (default) and "".}
+\item{option}{Allowed values are "default" (default) and "longrun".}
 }
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/c30} for a full description.
 }
 \note{
-The historical data is split across multiple files at source. We download all
-      of them and merge together to form a complete history.
+There are a few other files present on the webpage for this series but
+      they are not downloaded. You will need to retrieve them manually if you
+      want them.
 }
+\keyword{internal}

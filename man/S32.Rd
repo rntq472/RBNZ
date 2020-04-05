@@ -4,5 +4,7 @@
 \alias{S32}
 \title{S32 - Banks: Assets – Loans by product ($m)}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/s32-banks-assets-loans-by-product} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/s32-banks-assets-loans-by-product}
+for a full description.
 }
+\keyword{internal}

@@ -4,8 +4,10 @@
 \alias{S10}
 \title{S10 - Banks: Balance sheet ($m)}
 \arguments{
-\item{option}{Allowed values are "default" (default) and "memo".}
+\item{option}{Allowed values are "default" (default) and "moredetail".}
 }
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/s10-banks-balance-sheet} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/s10-banks-balance-sheet} for
+a full description.
 }
+\keyword{internal}

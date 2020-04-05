@@ -4,9 +4,11 @@
 \alias{C60}
 \title{C60 - Credit conditions survey}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/c60-credit-conditions-survey} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/c60-credit-conditions-survey}
+for a full description.
 }
 \note{
-The historical data is split across multiple files at source. We download all
-      of them and merge together to form a complete history.
+There is a second dataset present (the ec60 file) which is not retrieved
+      as it is in a non-standard format.
 }
+\keyword{internal}

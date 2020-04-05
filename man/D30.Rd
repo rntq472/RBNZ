@@ -2,10 +2,8 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{D30}
 \alias{D30}
-\title{D30}
-\arguments{
-\item{option}{Allowed values are "" (default) and "".}
-}
+\title{D30 - Holdings of central government debt securities (nominal value)}
 \description{
-See \url{} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/d30} for a full description.
 }
+\keyword{internal}

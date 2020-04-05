@@ -7,5 +7,7 @@
 \item{option}{Allowed values are "default" (default) and "longrun".}
 }
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/s33-banks-assets-loans-fully-secured-by-residential-mortgage-by-repricing} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/s33-banks-assets-loans-fully-secured-by-residential-mortgage-by-repricing}
+for a full description.
 }
+\keyword{internal}

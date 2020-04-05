@@ -6,3 +6,4 @@
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/t31} for a full description.
 }
+\keyword{internal}

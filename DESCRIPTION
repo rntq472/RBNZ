@@ -1,16 +1,19 @@
 Package: RBNZ
-Title: Download Data From the Reserve Bank of New Zealand
-Version: 0.0.0.9000
+Title: Download Data From the Reserve Bank of New Zealand Website
+Version: 1.0.0
 Authors@R: 
     person(given = "Jasper",
            family = "Watson",
            role = c("aut", "cre"),
            email = "jasper.g.watson@gmail.com")
-Description: Downloads xlsx files from the website of the Reserve Bank of New Zealand (RBNZ) and reads them into R. All active datasets that are in the form of time series data can be retrieved. This includes the following series: B, C, R, S, L, J, T, D, M, and E2. See \url{https://www.rbnz.govt.nz/statistics} for more information.
-License: What license it uses
+Description: Downloads .xls and .xlsx files from the website of the Reserve Bank
+    of New Zealand (RBNZ) and reads them into R. See
+    <https://www.rbnz.govt.nz/statistics> for context.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.0
+Depends: R (>= 3.5.0)
 Imports:
     httr,
     lubridate,
@@ -18,4 +21,6 @@ Imports:
     rvest,
     xml2
 Suggests: 
-    testthat
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

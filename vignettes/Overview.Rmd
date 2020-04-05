@@ -1,0 +1,63 @@
+---
+title: "Overview of the RBNZ Package"
+author: "Jasper Watson"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Overview}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup, echo = FALSE}
+
+library(RBNZ)
+
+```
+
+# RBNZ
+
+This package provides access to the datasets published by the Reserve Bank of New Zealand (RBNZ). The statistics page of their website is https://www.rbnz.govt.nz/statistics. A summary of the available data can be found at the end of this document. On the RBNZ webite the data is made available in .xlsx and .xls files; this package will download those files and read them into R.
+
+The author has no affiliation with the RBNZ. The copyright for the data can be found at https://www.rbnz.govt.nz/copyright.
+
+## Usage
+
+The function for downloading the data is `getSeries`. This takes as its first argument the name of the series and will return a list containing the fields "meta" and "data" which are data frames containing the metadata and actual data, respectively.
+
+```{r, echo = TRUE, eval = FALSE}
+library(RBNZ)
+
+## Not evaluated in this vignette.
+b1 <- getSeries('B1')
+
+plot(b1$data$Date, b1$data$UK_pound_sterling, type = 'l')
+```
+
+Some of the datasets have different available formats. For example the B1 series contains exchange rate data in both daily and monthly form. The second argument of `getSeries` allows the user to specify which option they want. e.g. `getSeries('B1', 'monthly')`.
+
+Each series has a help file so typing `?B1` and such like will tell you what options, if any, are available.
+
+For a full description of the arguments of `getSeries`, see the package manual.
+
+## Non-standard Data
+
+The majority of the datasets available are all stored in a similar format, with data organised by date and a standard set of metadata. There are a few series that do not follow this template, as indicated below, and for these the spreadsheets are just downloaded and read into a list of data frames, one for each sheet, with no organising or cleaning.
+
+## Available Data
+
+```{r, echo = FALSE, eval = TRUE, tidy = FALSE}
+x <- RBNZ:::availableData()
+for (ii in 1:nrow(x)){
+  if (nchar(x[ii, 3]) > 50)
+    x[ii, 3] <- paste0(substring(x[ii, 3], 1, 47), '...')
+}
+print(x, row.names = FALSE)
+```

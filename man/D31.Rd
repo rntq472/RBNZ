@@ -2,10 +2,8 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{D31}
 \alias{D31}
-\title{D31}
-\arguments{
-\item{option}{Allowed values are "" (default) and "".}
-}
+\title{D31 - Non-resident holdings of individual bonds (nominal value)}
 \description{
-See \url{} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/d31} for a full description.
 }
+\keyword{internal}

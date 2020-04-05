@@ -9,3 +9,4 @@
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/b4} for a full description.
 }
+\keyword{internal}

@@ -4,49 +4,59 @@
 `%!in%` <- function(x, y)
     !(x %in% y)
 
+cat0 <- function(...)
+    cat(..., sep = '')
+
 baseURL <- function()
     'https://www.rbnz.govt.nz/statistics'
 
-
-## includeDiscontinued = TRUE
-
-#allSeries <- function(){
-    
-#    current <- c('B1', 'B4', 'B2', 'B3', 'B6', 'B20', 'B21', 'B10', 'B13', 'C5', 'C12', 'C13', 'C30', 'C31', 'C32', 'C35', 'C40', 'C41', 'C50', 'C60', 'D3', 'D10', 'D12', 'F5', 'R1', 'R2', 'R3', 'F3', 'F4', 'S10', 'S30', 'S31', 'S32', 'S33', 'S34', 'S40', 'S41', 'S20', 'S21', 'L1', 'L2', 'L3', 'J10', 'J20', 'T1', 'T4', 'T11', 'T21', 'T31', 'T40', 'T41', 'T42', 'T43', 'T44', 'T45', 'T46', 'T47', 'T48', 'C21', 'C22', 'D9', 'D30', 'D31', 'D35', 'M1', 'M2', 'M3', 'M4', 'M5', 'M6', 'M7', 'M8', 'M9', 'M10', 'M11', 'M12', 'M13', 'M14', 'E1', 'E2', 'SDDS')
-    
-#    current
-    
-#}
-
+allSeries <- function()
+    names(seriesOptions())
 
 specialCases <- function()
-    c('D3', 'D10', 'D12', 'F5', 'F3', 'F4', 'D1', 'E1')
+    c('D3', 'D10', 'D12', 'F5', 'F3', 'F4', 'E1', 'SDDS')
 
-
-processColumnNames <- function(series, meta){
+transformColumnNames <- function(meta, fieldForColumnNames){
     
-    colNames <- meta$Series#gsub('\\(.*\\)', '', meta$Series)
+    colNames <- meta[, fieldForColumnNames, drop = FALSE]
+    colNames <- apply(colNames, 1, function(x) paste(x, collapse = '_'))
     
     colNames <- gsub('\\s+', '_', colNames)
     
     colNames <- gsub('\\(|\\)', '', colNames)
     
-    if (series == 'B1'){
-        
-        colNames[meta$Group == 'TWI'] <- 'TWI'
-        
-    }
-
-    if (any(duplicated(colNames)))
-        colNames <- paste(gsub('\\s+', '_', meta$Group), colNames, sep = '_')
-    
-   
     colNames <- c('Date', colNames)
     
     colNames <- gsub('\\.', '', colNames)
     colNames <- gsub('_+$', '', colNames)
     colNames <- gsub('_-_', '_', colNames)
     
+    if (any(duplicated(colNames)))
+        colNames <- make.names(colNames, unique = TRUE)
+    
     colNames
+    
+}
+
+specialRBind <- function(x){
+    
+    isDate <- lapply(x, function(x)
+        sapply(x, function(y) inherits(y, 'POSIXct')))
+    
+    anyDate <- Reduce(`|`, isDate)
+    
+    for (ii in seq_along(x) ){
+        
+        for (jj in seq_along(x[[ii]]) ){
+            
+            if (anyDate[jj] & !isDate[[ii]][jj] & all(is.na(x[[ii]][, jj])) ){
+                
+                x[[ii]][, jj]<- as.POSIXct(x[[ii]][, jj], origin = '1970-01-01')
+                
+            }
+        }
+    }
+    
+    do.call(rbind, x)
     
 }
