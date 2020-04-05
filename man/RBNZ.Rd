@@ -3,9 +3,9 @@
 \docType{package}
 \name{RBNZ}
 \alias{RBNZ}
-\title{Access Data From the Reserve Bank of New Zealand Website.}
+\title{Access Data from the Reserve Bank of New Zealand Website.}
 \description{
-Downloads .xls and .xlsx files from the website of the Reserve Bank of New
+Downloads data spreadsheets from the website of the Reserve Bank of New
 Zealand (RBNZ) and reads them into R. See <https://www.rbnz.govt.nz/statistics>
 for context.
 }

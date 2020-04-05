@@ -1,12 +1,12 @@
 Package: RBNZ
-Title: Download Data From the Reserve Bank of New Zealand Website
+Title: Download Data from the Reserve Bank of New Zealand Website
 Version: 1.0.0
 Authors@R: 
     person(given = "Jasper",
            family = "Watson",
            role = c("aut", "cre"),
            email = "jasper.g.watson@gmail.com")
-Description: Downloads .xls and .xlsx files from the website of the Reserve Bank
+Description: Downloads data spreadsheets from the website of the Reserve Bank
     of New Zealand (RBNZ) and reads them into R. See
     <https://www.rbnz.govt.nz/statistics> for context.
 License: MIT + file LICENSE

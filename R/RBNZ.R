@@ -1,6 +1,6 @@
-##' Access Data From the Reserve Bank of New Zealand Website.
+##' Access Data from the Reserve Bank of New Zealand Website.
 ##' 
-##' Downloads .xls and .xlsx files from the website of the Reserve Bank of New
+##' Downloads data spreadsheets from the website of the Reserve Bank of New
 ##' Zealand (RBNZ) and reads them into R. See <https://www.rbnz.govt.nz/statistics>
 ##' for context.
 ##' 
