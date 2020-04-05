@@ -49,6 +49,7 @@ seriesOptions <- function(series){
                    longrun = 'hC50-long-run'),
         C51 = list(default = 'hC51'),
         C52 = list(default = 'hC52'),
+        C55 = list(default = 'hC55'),
         C60 = list(default = 'hc60'), ## ec60 not returned.
         D3 = list(default = 'hd3'),
         D10 = list(default = 'hd10'),
