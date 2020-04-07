@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{T41}
 \alias{T41}
-\title{T41 - Managed fund assets ($m)}
+\title{Managed Fund Assets}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/t41} for a full description.
 }

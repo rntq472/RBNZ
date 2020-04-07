@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{M3}
 \alias{M3}
-\title{M3 - Investment}
+\title{Investment}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/m3} for a full description.
 }

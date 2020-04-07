@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{B6}
 \alias{B6}
-\title{B6 - Yields on loans}
+\title{Yields on Loans}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/b6-yields-on-loans} for a full
 description.

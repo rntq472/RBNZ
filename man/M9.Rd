@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{M9}
 \alias{M9}
-\title{M9 - Labour market}
+\title{Labour Market}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/m9} for a full description.
 }

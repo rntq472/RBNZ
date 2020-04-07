@@ -2,7 +2,7 @@
 % Please edit documentation in R/readSeriesPage.R
 \name{readSeriesPage}
 \alias{readSeriesPage}
-\title{Read a Series Webpage Into an XML object.}
+\title{Read a Series Webpage Into an XML object}
 \usage{
 readSeriesPage(series, quiet = TRUE)
 }
@@ -12,11 +12,11 @@ readSeriesPage(series, quiet = TRUE)
 \item{quiet}{Logical to be passed to utils::download.file.}
 }
 \value{
-An XML document returned by xml2::read_html containing the webpage pertaining
-        to the desired series.
+An XML document returned by xml2::read_html containing the webpage
+        pertaining to the desired series.
 }
 \description{
-Read a Series Webpage Into an XML object.
+Read a Series Webpage Into an XML object
 }
 \author{
 Jasper Watson

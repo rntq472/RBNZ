@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{F3}
 \alias{F3}
-\title{F3 - Bank notes in the hands of the public}
+\title{Bank Notes in the Hands of the Public}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/f3} for a full description.
 }

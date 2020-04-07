@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{B21}
 \alias{B21}
-\title{B21 - New residential mortgage special interest rates}
+\title{New Residential Mortgage Special Interest Rates}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/b21-new-residential-mortgage-special-interest-rates}
 for a full description.

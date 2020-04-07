@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{S30}
 \alias{S30}
-\title{S30 - Banks: Assets - Loans by sector}
+\title{Banks: Assets - Loans by Sector}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/s30-banks-assets-loans-by-sector}
 for a full description.

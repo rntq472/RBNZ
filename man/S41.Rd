@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{S41}
 \alias{S41}
-\title{S41 - Banks: Liabilities – Deposits by industry ($m)}
+\title{Banks: Liabilities – Deposits by Industry}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/s41-banks-liabilities-deposits-by-industry}
 for a full description.

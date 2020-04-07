@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{M6}
 \alias{M6}
-\title{M6 - National saving (year ended March)}
+\title{National Saving (Year Ended March)}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/m6} for a full description.
 }

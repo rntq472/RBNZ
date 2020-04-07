@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{C52}
 \alias{C52}
-\title{C52 - Depository corporations analytical accounts}
+\title{Depository Corporations Analytical Accounts}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/c52-depository-corporations-analytical-accounts} for a full description.
 }

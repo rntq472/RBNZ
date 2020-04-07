@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{L3}
 \alias{L3}
-\title{L3 - Face value of funding by residual maturity ($m)}
+\title{Face Value of Funding by Residual Maturity ($m)}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/l3} for a full description.
 }

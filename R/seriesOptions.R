@@ -4,9 +4,6 @@
 getDefaultOption <- function(series)
     names(seriesOptions(series))[1]
 
-allSeries <- function()
-    names(seriesOptions())
-
 allowedOptions <- function(series)
     names(seriesOptions(series))
 

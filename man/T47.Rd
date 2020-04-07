@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{T47}
 \alias{T47}
-\title{T47 - Wholesale trusts ($m)}
+\title{Wholesale Trusts}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/t47} for a full description.
 }

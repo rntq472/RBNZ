@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{S31}
 \alias{S31}
-\title{S31 - Banks: Assets – Loans by purpose ($m)}
+\title{Banks: Assets – Loans by Purpose}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/s31-banks-assets-loans-by-purpose}
 for a full description.

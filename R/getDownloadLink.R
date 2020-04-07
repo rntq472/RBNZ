@@ -1,4 +1,4 @@
-##' Determine the URL for a File to be Downloaded.
+##' Determine the URL for a File to be Downloaded
 ##' 
 ##' @inheritParams getSeries
 ##' @param subFileName The name of the file to be downloaded, as provided by

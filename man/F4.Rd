@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{F4}
 \alias{F4}
-\title{F4 - Coin mintings}
+\title{Coin Mintings}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/f4} for a full description.
 }

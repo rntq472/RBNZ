@@ -2,7 +2,7 @@
 % Please edit documentation in R/readSeriesPage.R
 \name{getSeriesPageURL}
 \alias{getSeriesPageURL}
-\title{Determine the URL of a Webpage Pertaining to a Series.}
+\title{Determine the URL of a Webpage Pertaining to a Series}
 \usage{
 getSeriesPageURL(series)
 }
@@ -13,7 +13,7 @@ getSeriesPageURL(series)
 Character string giving the URL of the series webpage.
 }
 \description{
-Determine the URL of a Webpage Pertaining to a Series.
+Determine the URL of a Webpage Pertaining to a Series
 }
 \author{
 Jasper Watson

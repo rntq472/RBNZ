@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{M2}
 \alias{M2}
-\title{M2 - Consumption}
+\title{Consumption}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/m2} for a full description.
 }

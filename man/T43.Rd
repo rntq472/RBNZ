@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{T43}
 \alias{T43}
-\title{T43 - KiwiSaver ($m)}
+\title{KiwiSaver}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/t43} for a full description.
 }

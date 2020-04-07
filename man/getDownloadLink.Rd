@@ -2,7 +2,7 @@
 % Please edit documentation in R/getDownloadLink.R
 \name{getDownloadLink}
 \alias{getDownloadLink}
-\title{Determine the URL for a File to be Downloaded.}
+\title{Determine the URL for a File to be Downloaded}
 \usage{
 getDownloadLink(subFileName, seriesPage, series)
 }
@@ -19,7 +19,7 @@ webpage pertaining to the desired series.}
 Character string giving the URL of the file to be downloaded.
 }
 \description{
-Determine the URL for a File to be Downloaded.
+Determine the URL for a File to be Downloaded
 }
 \author{
 Jasper Watson

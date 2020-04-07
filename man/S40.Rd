@@ -2,9 +2,9 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{S40}
 \alias{S40}
-\title{S40 - Banks: Liabilities – Deposits by sector ($m)}
+\title{Banks: Liabilities – Deposits by Sector}
 \arguments{
-\item{option}{Allowed values are "default" (default) and "longrun".}
+\item{option}{Allowed values are \dQuote{default} (default) and \dQuote{longrun}.}
 }
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/s40-banks-liabilities-deposits-by-sector}

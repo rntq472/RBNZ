@@ -1,4 +1,4 @@
-##' Read a Downloaded Spreadsheet.
+##' Read a Downloaded Spreadsheet
 ##' 
 ##' @inheritParams getSeries
 ##' @param destfile File path of the downloaded spreadsheet.
@@ -8,10 +8,10 @@
 ##'                    reading it.
 ##' 
 ##' @return The contents of the spreadsheet. For most series this will be in the
-##'         form of a list of two data frames, one called "data" and the other
-##'         "meta". For some series (see specialCases()), the data is not in the
-##'         standard format as the rest and so is just returned directly as
-##'         the results of read_xlsx for each sheet in the spreadsheet.
+##'         form of a list of two data frames, one called \dQuote{data} and the
+##'         other \dQuote{meta}. For some series (see specialCases()), the data
+##'         is not in the standard format as the rest and so is just returned
+##'         directly as the results of read_xlsx for each sheet in the spreadsheet.
 ##' 
 ##' @author Jasper Watson
 ##' 
@@ -40,10 +40,9 @@ readSpreadsheet <- function(destfile, series, subFileName, fieldForColumnNames,
         }, silent = TRUE)
         
         if (inherits(Foo, 'try-error') ){
-            cat('readxl could not read the specified file.\n')
-            return(NULL)   
+            stop('readxl could not read ', destfile)
         }
-
+        
         FUN <- switch(readxl::format_from_ext(destfile),
                       xls = readxl::read_xls,
                       xlsx = readxl::read_xlsx
@@ -57,8 +56,7 @@ readSpreadsheet <- function(destfile, series, subFileName, fieldForColumnNames,
         }, silent = TRUE)
         
         if (inherits(Foo, 'try-error') ){
-            cat('readxl could not read the specified file.\n')
-            return(NULL)
+            stop('readxl could not read ', destfile)
         }
         
         for (ii in seq_along(out))

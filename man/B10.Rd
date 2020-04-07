@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{B10}
 \alias{B10}
-\title{B10 - TWI weights}
+\title{TWI Weights}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/b10} for a full description.
 }

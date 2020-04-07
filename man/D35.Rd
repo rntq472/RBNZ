@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{D35}
 \alias{D35}
-\title{D35 - Holdings of Kauri bonds (nominal value)}
+\title{Holdings of Kauri Bonds (Nominal Value)}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/d35} for a full description.
 }

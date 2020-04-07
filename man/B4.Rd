@@ -2,9 +2,10 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{B4}
 \alias{B4}
-\title{B4 - Foreign exchange turnover ($m daily averages)}
+\title{Foreign Exchange Turnover}
 \arguments{
-\item{option}{Allowed values are "NZD" (default), "USD" and "EUR".}
+\item{option}{Allowed values are \dQuote{NZD} (default), \dQuote{USD}
+and \dQuote{EUR}.}
 }
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/b4} for a full description.

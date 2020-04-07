@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{C22}
 \alias{C22}
-\title{C22 - Household balance sheet ($m)}
+\title{Household Balance Sheet}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/c22} for a full description.
 }

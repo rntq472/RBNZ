@@ -2,9 +2,9 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{B1}
 \alias{B1}
-\title{B1 - Exchange rates and TWI}
+\title{Exchange Rates and TWI}
 \arguments{
-\item{option}{Allowed values are "daily" (default) and "monthly".}
+\item{option}{Allowed values are \dQuote{daily} (default) and \dQuote{monthly}.}
 }
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/b1} for a full description.

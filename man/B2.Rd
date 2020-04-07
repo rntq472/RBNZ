@@ -2,10 +2,10 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{B2}
 \alias{B2}
-\title{B2 - Wholesale interest rates}
+\title{Wholesale Interest Rates}
 \arguments{
-\item{option}{Allowed values are "daily" (default), "dailyclose", "monthly", and
-"monthlyclose".}
+\item{option}{Allowed values are \dQuote{daily} (default), \dQuote{dailyclose},
+\dQuote{monthly}, and \dQuote{monthlyclose}.}
 }
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/b2} for a full description.

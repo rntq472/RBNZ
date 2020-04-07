@@ -1,10 +1,10 @@
-##' B1 - Exchange rates and TWI
+##' Exchange Rates and TWI
 ##' 
 ##' See \url{https://www.rbnz.govt.nz/statistics/b1} for a full description.
 ##' 
 ##' @name B1
 ##' 
-##' @param option Allowed values are "daily" (default) and "monthly".
+##' @param option Allowed values are \dQuote{daily} (default) and \dQuote{monthly}.
 ##' 
 ##' @note The historical data is split across multiple files at source. We download
 ##'       all of them and merge together to form a complete history.
@@ -13,26 +13,27 @@
 ##' 
 NULL
 
-##' B4 - Foreign exchange turnover ($m daily averages)
+##' Foreign Exchange Turnover
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/b4} for a full description.
 ##' 
 ##' @name B4
 ##' 
-##' @param option Allowed values are "NZD" (default), "USD" and "EUR".
+##' @param option Allowed values are \dQuote{NZD} (default), \dQuote{USD}
+##'               and \dQuote{EUR}.
 ##' 
 ##' @keywords internal
 ##' 
 NULL
 
-##' B2 - Wholesale interest rates
+##' Wholesale Interest Rates
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/b2} for a full description.
 ##' 
 ##' @name B2
 ##' 
-##' @param option Allowed values are "daily" (default), "dailyclose", "monthly", and
-##'               "monthlyclose".
+##' @param option Allowed values are \dQuote{daily} (default), \dQuote{dailyclose},
+##'               \dQuote{monthly}, and \dQuote{monthlyclose}.
 ##'
 ##' @note The historical data is split across multiple files at source. We download
 ##'       all of them and merge together to form a complete history.
@@ -41,7 +42,7 @@ NULL
 ##' 
 NULL
 
-##' B3 - Retail interest rates on lending and deposits
+##' Retail Interest Rates on Lending and Deposits
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/b3} for a full description.
 ##' 
@@ -51,7 +52,7 @@ NULL
 ##' 
 NULL
 
-##' B6 - Yields on loans
+##' Yields on Loans
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/b6-yields-on-loans} for a full
 ##' description.
@@ -62,7 +63,7 @@ NULL
 ##' 
 NULL
 
-##' B20 - New residential mortgage standard interest rates
+##' New Residential Mortgage Standard Interest Rates
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/b20-new-customer-average-rate}
 ##' for a full description.
@@ -73,7 +74,7 @@ NULL
 ##' 
 NULL
 
-##' B21 - New residential mortgage special interest rates
+##' New Residential Mortgage Special Interest Rates
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/b21-new-residential-mortgage-special-interest-rates}
 ##' for a full description.
@@ -84,7 +85,7 @@ NULL
 ##' 
 NULL
 
-##' B25 - New interest bearing call savings account interest rates
+##' New Interest Bearing Call Savings Account Interest Rates
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/b25-new-interest-bearing-call-savings-account-interest-rates}
 ##' for a full description.
@@ -95,7 +96,7 @@ NULL
 ##' 
 NULL
 
-##' B26 - New interest bearing term deposit interest rates
+##' New Interest Bearing Term Deposit Interest rates
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/b26-new-interest-bearing-term-deposit-interest-rates}
 ##' for a full description.
@@ -106,7 +107,7 @@ NULL
 ##' 
 NULL
 
-##' B27 - New interest bearing term PIE deposits interest rates
+##' New Interest Bearing Term PIE Deposits Interest Rates
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/b27-new-interest-bearing-term-pie-deposits-interest-rates}
 ##' for a full description.
@@ -117,7 +118,7 @@ NULL
 ##' 
 NULL
 
-##' B10 - TWI weights
+##' TWI Weights
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/b10} for a full description.
 ##' 
@@ -127,7 +128,7 @@ NULL
 ##' 
 NULL
 
-##' B13 - Historical TWI weights
+##' Historical TWI Weights
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/b13} for a full description.
 ##' 
@@ -146,7 +147,7 @@ NULL
 ##' 
 NULL
 
-##' C5 - Sector lending (registered banks and non-bank lending institutions)
+##' Sector Lending
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/c5} for a full description.
 ##' 
@@ -156,38 +157,38 @@ NULL
 ##' 
 NULL
 
-##' C12 - Credit card balances
+##' Credit Card Balances
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/c12} for a full description.
 ##' 
 ##' @name C12
 ##' 
-##' @param option Allowed values are "monthend" (default) and "dailyaverage".
+##' @param option Allowed values are \dQuote{monthend} (default) and
+##'               \dQuote{dailyaverage}.
 ##' 
 ##' @keywords internal
 ##' 
 NULL
 
-##' C13 - Credit card spending
+##' Credit Card Spending
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/c13} for a full description.
 ##' 
 ##' @name C13
 ##' 
-##' @param option Allowed values are "issued" (default) and "used".
+##' @param option Allowed values are \dQuote{issued} (default) and \dQuote{used}.
 ##' 
 ##' @keywords internal
 ##' 
 NULL
 
-##' C30 - New residential mortgage lending by loan-to-valuation ratio (LVR)
-##' compliance data
+##' New Residential Mortgage Lending by Loan-To-Valuation Ratio
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/c30} for a full description.
 ##' 
 ##' @name C30
 ##' 
-##' @param option Allowed values are "default" (default) and "longrun".
+##' @param option Allowed values are \dQuote{default} (default) and \dQuote{longrun}.
 ##'
 ##' @note There are a few other files present on the webpage for this series but
 ##'       they are not downloaded. You will need to retrieve them manually if you
@@ -197,7 +198,7 @@ NULL
 ##' 
 NULL
 
-##' C31 - New residential mortgage lending by borrower type
+##' New Residential Mortgage Lending by Borrower Type
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/c31} for a full description.
 ##' 
@@ -207,7 +208,7 @@ NULL
 ##' 
 NULL
 
-##' C32 - New and Existing Residential Mortgage Lending by Payment type
+##' New and Existing Residential Mortgage Lending by Payment Type
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/c32} for a full description.
 ##' 
@@ -217,7 +218,7 @@ NULL
 ##' 
 NULL
 
-##' C35 - Residential mortgage loan reconciliation
+##' Residential Mortgage Loan Reconciliation
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/c35} for a full description.
 ##' 
@@ -227,7 +228,7 @@ NULL
 ##' 
 NULL
 
-##' C40 - Residential mortgage lending by debt-to-income (DTI) purpose use
+##' Residential Mortgage Lending by Debt-To-Income Purpose Use
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/c40-residential-mortgage-lending-by-debt-to-income-dti-purpose-use}
 ##' for a full description.
@@ -238,7 +239,7 @@ NULL
 ##' 
 NULL
 
-##' C41 - Residential mortgage borrower gross income (BGI)
+##' Residential Mortgage Borrower Gross Income (BGI)
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/c41-residential-mortgage-borrower-gross-income-bgi}
 ##' for a full description.
@@ -249,20 +250,20 @@ NULL
 ##' 
 NULL
 
-##' C50 - Money and credit aggregates (depository corporations)
+##' Money and Credit Aggregates (Depository Corporations)
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/c50-money-and-credit-aggregates}
 ##' for a full description.
 ##' 
 ##' @name C50
 ##' 
-##' @param option Allowed values are "default" (default) and "longrun".
+##' @param option Allowed values are \dQuote{default} (default) and \dQuote{longrun}.
 ##' 
 ##' @keywords internal
 ##' 
 NULL
 
-##' C51 - Other depository corporations analytical accounts
+##' Other Depository Corporations Analytical Accounts
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/c51-other-depository-corporations-analytical-accounts} for a full description.
 ##' 
@@ -272,7 +273,7 @@ NULL
 ##' 
 NULL
 
-##' C52 - Depository corporations analytical accounts
+##' Depository Corporations Analytical Accounts
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/c52-depository-corporations-analytical-accounts} for a full description.
 ##' 
@@ -282,7 +283,7 @@ NULL
 ##' 
 NULL
 
-##' C55 - Other financial corporations analytical accounts
+##' Other Financial Corporations Analytical Accounts
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/c55-other-financial-corporations-analytical-accounts} for a full description.
 ##' 
@@ -292,7 +293,7 @@ NULL
 ##' 
 NULL
 
-##' C60 - Credit conditions survey
+##' Credit Conditions Survey
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/c60-credit-conditions-survey}
 ##' for a full description.
@@ -306,7 +307,7 @@ NULL
 ##' 
 NULL
 
-##' D3 - Open market operations
+##' Open Market Operations
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/d3} for a full description.
 ##' 
@@ -318,7 +319,7 @@ NULL
 ##' 
 NULL
 
-##' D10 - Influences on settlement cash
+##' Influences on Settlement Cash
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/d10} for a full description.
 ##' 
@@ -330,7 +331,7 @@ NULL
 ##' 
 NULL
 
-##' D12 - Standing facilities
+##' Standing Facilities
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/d12} for a full description.
 ##' 
@@ -342,7 +343,7 @@ NULL
 ##' 
 NULL
 
-##' F5 - Reserve Bank foreign currency assets and liabilities
+##' Reserve Bank Foreign Currency Assets and Liabilities
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/f5} for a full description.
 ##' 
@@ -354,7 +355,7 @@ NULL
 ##' 
 NULL
 
-##' R1 - Reserve Bank balance sheet ($m)
+##' Reserve Bank Balance Sheet
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/r1} for a full description.
 ##' 
@@ -364,7 +365,7 @@ NULL
 ##' 
 NULL
 
-##' R2 - Reserve Bank statistical balance sheet ($m)
+##' Reserve Bank Statistical Balance Sheet
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/r2} for a full description.
 ##' 
@@ -374,7 +375,7 @@ NULL
 ##' 
 NULL
 
-##' R3 - Reserve Bank analytical accounts ($m)
+##' Reserve Bank Analytical Accounts
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/r3} for a full description.
 ##' 
@@ -384,7 +385,7 @@ NULL
 ##' 
 NULL
 
-##' F3 - Bank notes in the hands of the public
+##' Bank Notes in the Hands of the Public
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/f3} for a full description.
 ##' 
@@ -396,7 +397,7 @@ NULL
 ##' 
 NULL
 
-##' F4 - Coin mintings
+##' Coin Mintings
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/f4} for a full description.
 ##' 
@@ -408,20 +409,21 @@ NULL
 ##' 
 NULL
 
-##' S10 - Banks: Balance sheet ($m)
+##' Banks: Balance Sheet
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/s10-banks-balance-sheet} for
 ##' a full description.
 ##' 
 ##' @name S10
 ##' 
-##' @param option Allowed values are "default" (default) and "moredetail".
+##' @param option Allowed values are \dQuote{default} (default) and
+##'               \dQuote{moredetail}.
 ##' 
 ##' @keywords internal
 ##' 
 NULL
 
-##' S30 - Banks: Assets - Loans by sector
+##' Banks: Assets - Loans by Sector
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/s30-banks-assets-loans-by-sector}
 ##' for a full description.
@@ -432,7 +434,7 @@ NULL
 ##' 
 NULL
 
-##' S31 - Banks: Assets – Loans by purpose ($m)
+##' Banks: Assets – Loans by Purpose
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/s31-banks-assets-loans-by-purpose}
 ##' for a full description.
@@ -443,7 +445,7 @@ NULL
 ##' 
 NULL
 
-##' S32 - Banks: Assets – Loans by product ($m)
+##' Banks: Assets – Loans by Product
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/s32-banks-assets-loans-by-product}
 ##' for a full description.
@@ -454,20 +456,20 @@ NULL
 ##' 
 NULL
 
-##' S33 - Banks: Assets – Loans fully secured by residential mortgage by repricing ($m)
+##' Banks: Assets – Loans Fully Secured by Residential Mortgage
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/s33-banks-assets-loans-fully-secured-by-residential-mortgage-by-repricing}
 ##' for a full description.
 ##' 
 ##' @name S33
 ##' 
-##' @param option Allowed values are "default" (default) and "longrun".
+##' @param option Allowed values are \dQuote{default} (default) and \dQuote{longrun}.
 ##' 
 ##' @keywords internal
 ##' 
 NULL
 
-##' S34 - Banks: Assets – Loans and Repos by Industry ($m)
+##' Banks: Assets – Loans and Repos by Industry
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/s34-banks-assets-loans-by-industry}
 ##' for a full description.
@@ -478,20 +480,20 @@ NULL
 ##' 
 NULL
 
-##' S40 - Banks: Liabilities – Deposits by sector ($m)
+##' Banks: Liabilities – Deposits by Sector
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/s40-banks-liabilities-deposits-by-sector}
 ##' for a full description.
 ##' 
 ##' @name S40
 ##' 
-##' @param option Allowed values are "default" (default) and "longrun".
+##' @param option Allowed values are \dQuote{default} (default) and \dQuote{longrun}.
 ##' 
 ##' @keywords internal
 ##' 
 NULL
 
-##' S41 - Banks: Liabilities – Deposits by industry ($m)
+##' Banks: Liabilities – Deposits by Industry
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/s41-banks-liabilities-deposits-by-industry}
 ##' for a full description.
@@ -502,7 +504,7 @@ NULL
 ##' 
 NULL
 
-##' S20 - Banks: Summary income statement and related ratios
+##' Banks: Summary Income Statement and Related Ratios
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/s20} for a full description.
 ##' 
@@ -512,7 +514,7 @@ NULL
 ##' 
 NULL
 
-##' S21 - Banks: Income statement ($m)
+##' Banks: Income Statement
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/s21} for a full description.
 ##' 
@@ -522,7 +524,7 @@ NULL
 ##' 
 NULL
 
-##' L1 - Mismatch ratios
+##' Mismatch Ratios
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/l1} for a full description.
 ##' 
@@ -532,7 +534,7 @@ NULL
 ##' 
 NULL
 
-##' L2 - Core funding ratio
+##' Core Funding Ratio
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/l2} for a full description.
 ##' 
@@ -542,7 +544,7 @@ NULL
 ##' 
 NULL
 
-##' L3 - Face value of funding by residual maturity ($m)
+##' Face Value of Funding by Residual Maturity ($m)
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/l3} for a full description.
 ##' 
@@ -552,7 +554,7 @@ NULL
 ##' 
 NULL
 
-##' J10 - Insurance: Income Statement
+##' Insurance: Income Statement
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/j10-insurance-income-statement}
 ##' for a full description.
@@ -563,7 +565,7 @@ NULL
 ##' 
 NULL
 
-##' J20 - Insurance: Balance Sheet
+##' Insurance: Balance Sheet
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/j20-insurance-balance-sheet}
 ##' for a full description.
@@ -574,7 +576,7 @@ NULL
 ##' 
 NULL
 
-##' T1 - Non banks: Balance sheet ($m)
+##' Non Banks: Balance Sheet
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/t1} for a full description.
 ##' 
@@ -584,7 +586,7 @@ NULL
 ##' 
 NULL
 
-##' T4 - Non banks: Funding and claims by sector ($m)
+##' Non Banks: Funding and Claims by Sector
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/t4} for a full description.
 ##' 
@@ -594,7 +596,7 @@ NULL
 ##' 
 NULL
 
-##' T11 - Savings institutions: Balance sheet ($m)
+##' Savings Institutions: Balance Sheet
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/t11} for a full description.
 ##' 
@@ -604,7 +606,7 @@ NULL
 ##' 
 NULL
 
-##' T21 - Deposit taking finance companies: Balance sheet ($m)
+##' Deposit Taking Finance Companies: Balance Sheet
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/t21} for a full description.
 ##' 
@@ -614,7 +616,7 @@ NULL
 ##' 
 NULL
 
-##' T31 - Non-deposit taking finance companies: Balance sheet ($m)
+##' Non-Deposit Taking Finance Companies: Balance Sheet
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/t31} for a full description.
 ##' 
@@ -624,7 +626,7 @@ NULL
 ##' 
 NULL
 
-##' T40 - Funds under management ($m)
+##' Funds Under Management
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/t40} for a full description.
 ##' 
@@ -634,7 +636,7 @@ NULL
 ##' 
 NULL
 
-##' T41 - Managed fund assets ($m)
+##' Managed Fund Assets
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/t41} for a full description.
 ##' 
@@ -644,7 +646,7 @@ NULL
 ##' 
 NULL
 
-##' T42 - Life insurance ($m)
+##' Life Insurance
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/t42} for a full description.
 ##' 
@@ -654,7 +656,7 @@ NULL
 ##' 
 NULL
 
-##' T43 - KiwiSaver ($m)
+##' KiwiSaver
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/t43} for a full description.
 ##' 
@@ -664,7 +666,7 @@ NULL
 ##' 
 NULL
 
-##' T44 - Other registered superannuation ($m)
+##' Other Registered Superannuation
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/t44} for a full description.
 ##' 
@@ -674,7 +676,7 @@ NULL
 ##' 
 NULL
 
-##' T45 - Retail unit trusts ($m)
+##' Retail Unit Trusts
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/t45} for a full description.
 ##' 
@@ -684,7 +686,7 @@ NULL
 ##' 
 NULL
 
-##' T46 - Cash management trusts ($m)
+##' Cash Management Trusts
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/t46} for a full description.
 ##' 
@@ -694,7 +696,7 @@ NULL
 ##' 
 NULL
 
-##' T47 - Wholesale trusts ($m)
+##' Wholesale Trusts
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/t47} for a full description.
 ##' 
@@ -704,7 +706,7 @@ NULL
 ##' 
 NULL
 
-##' T48 - Wholesale trusts and other funds ($m)
+##' Wholesale Trusts and Other Funds
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/t48} for a full description.
 ##' 
@@ -714,7 +716,7 @@ NULL
 ##' 
 NULL
 
-##' C21 - Key household financial statistics ($m)
+##' Key Household Financial Statistics
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/c21} for a full description.
 ##' 
@@ -724,7 +726,7 @@ NULL
 ##' 
 NULL
 
-##' C22 - Household balance sheet ($m)
+##' Household Balance Sheet
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/c22} for a full description.
 ##' 
@@ -734,19 +736,19 @@ NULL
 ##' 
 NULL
 
-##' D9 - Government bond turnover
+##' Government Bond Turnover
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/d9} for a full description.
 ##' 
 ##' @name D9
 ##'
-##' @param option Allowed values are "daily" (default) and "monthly".
+##' @param option Allowed values are \dQuote{daily} (default) and \dQuote{monthly}.
 ##' 
 ##' @keywords internal
 ##' 
 NULL
 
-##' D30 - Holdings of central government debt securities (nominal value)
+##' Holdings of Central Government Debt Securities
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/d30} for a full description.
 ##' 
@@ -756,7 +758,7 @@ NULL
 ##' 
 NULL
 
-##' D31 - Non-resident holdings of individual bonds (nominal value)
+##' Non-Resident Holdings of Individual Bonds (Nominal Value)
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/d31} for a full description.
 ##' 
@@ -766,7 +768,7 @@ NULL
 ##' 
 NULL
 
-##' D35 - Holdings of Kauri bonds (nominal value)
+##' Holdings of Kauri Bonds (Nominal Value)
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/d35} for a full description.
 ##' 
@@ -776,19 +778,19 @@ NULL
 ##' 
 NULL
 
-##' M1 - Prices
+##' Prices
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/m1} for a full description.
 ##' 
 ##' @name M1
 ##' 
-##' @param option Allowed values are "default" (default) and "longrun".
+##' @param option Allowed values are \dQuote{default} (default) and \dQuote{longrun}.
 ##' 
 ##' @keywords internal
 ##' 
 NULL
 
-##' M2 - Consumption
+##' Consumption
 ##' 
 ##' See \url{https://www.rbnz.govt.nz/statistics/m2} for a full description.
 ##' 
@@ -798,7 +800,7 @@ NULL
 ##' 
 NULL
 
-##' M3 - Investment
+##' Investment
 ##' 
 ##' See \url{https://www.rbnz.govt.nz/statistics/m3} for a full description.
 ##' 
@@ -808,7 +810,7 @@ NULL
 ##' 
 NULL
 
-##' M4 - Domestic trade
+##' Domestic Trade
 ##' 
 ##' See \url{https://www.rbnz.govt.nz/statistics/m4} for a full description.
 ##' 
@@ -818,7 +820,7 @@ NULL
 ##' 
 NULL
 
-##' M5 - Gross Domestic Product
+##' Gross Domestic Product
 ##' 
 ##' See \url{https://www.rbnz.govt.nz/statistics/m5} for a full description.
 ##' 
@@ -828,7 +830,7 @@ NULL
 ##' 
 NULL
 
-##' M6 - National saving (year ended March)
+##' National Saving (Year Ended March)
 ##' 
 ##' See \url{https://www.rbnz.govt.nz/statistics/m6} for a full description.
 ##' 
@@ -838,7 +840,7 @@ NULL
 ##' 
 NULL
 
-##' M7 - Balance of Payments and International Investment Position
+##' Balance of Payments and International Investment Position
 ##' 
 ##' See \url{https://www.rbnz.govt.nz/statistics/m7} for a full description.
 ##' 
@@ -848,7 +850,7 @@ NULL
 ##' 
 NULL
 
-##' M8 - Overseas trade
+##' Overseas Trade
 ##' 
 ##' See \url{https://www.rbnz.govt.nz/statistics/m8} for a full description.
 ##' 
@@ -858,7 +860,7 @@ NULL
 ##' 
 NULL
 
-##' M9 - Labour market
+##' Labour Market
 ##' 
 ##' See \url{https://www.rbnz.govt.nz/statistics/m9} for a full description.
 ##' 
@@ -868,7 +870,7 @@ NULL
 ##' 
 NULL
 
-##' M10 - Housing
+##' Housing
 ##' 
 ##' See \url{https://www.rbnz.govt.nz/statistics/m10} for a full description.
 ##' 
@@ -878,7 +880,7 @@ NULL
 ##' 
 NULL
 
-##' M12 - Population and migration
+##' Population and Migration
 ##' 
 ##' See \url{https://www.rbnz.govt.nz/statistics/m12} for a full description.
 ##' 
@@ -888,7 +890,7 @@ NULL
 ##' 
 NULL
 
-##' M13 - Household inflation expectations
+##' Household Inflation Expectations
 ##' 
 ##' See \url{https://www.rbnz.govt.nz/statistics/m13} for a full description.
 ##' 
@@ -898,7 +900,7 @@ NULL
 ##' 
 NULL
 
-##' M14 - Survey of expectations
+##' Survey of Expectations
 ##' 
 ##' See \url{https://www.rbnz.govt.nz/statistics/m14} for a full description.
 ##' 
@@ -908,7 +910,7 @@ NULL
 ##' 
 NULL
 
-##' E1 - New Zealand's official overseas reserves
+##' New Zealand's Official Overseas Reserves
 ##' 
 ##' See \url{https://www.rbnz.govt.nz/statistics/e1} for a full description.
 ##' 
@@ -918,7 +920,7 @@ NULL
 ##' 
 NULL
 
-##' E2 - New Zealand's position with the IMF
+##' New Zealand's Position with the IMF
 ##' 
 ##' See \url{https://www.rbnz.govt.nz/statistics/e2} for a full description.
 ##' 
@@ -928,14 +930,14 @@ NULL
 ##' 
 NULL
 
-##' SDDS - NZ’s international reserves and foreign currency liquidity
+##' NZ's International Reserves and Foreign Currency Liquidity
 ##' 
 ##' See \url{https://www.rbnz.govt.nz/statistics/sdds} for a full description.
 ##' 
 ##' @name SDDS
 ##'
-##' @param option Allowed values are "current" (default) and a year and month
-##'               specified in the form "20nn-nn".
+##' @param option Allowed values are \dQuote{current} (default) and a year and month
+##'               specified in the form \dQuote{20nn-nn}.
 ##' 
 ##' @note This is a non-standard dataset.
 ##' 

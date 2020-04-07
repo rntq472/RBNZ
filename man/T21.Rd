@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{T21}
 \alias{T21}
-\title{T21 - Deposit taking finance companies: Balance sheet ($m)}
+\title{Deposit Taking Finance Companies: Balance Sheet}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/t21} for a full description.
 }

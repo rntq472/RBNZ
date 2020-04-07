@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{T11}
 \alias{T11}
-\title{T11 - Savings institutions: Balance sheet ($m)}
+\title{Savings Institutions: Balance Sheet}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/t11} for a full description.
 }

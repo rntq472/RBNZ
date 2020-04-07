@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{C32}
 \alias{C32}
-\title{C32 - New and Existing Residential Mortgage Lending by Payment type}
+\title{New and Existing Residential Mortgage Lending by Payment Type}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/c32} for a full description.
 }

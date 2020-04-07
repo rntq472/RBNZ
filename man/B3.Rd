@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{B3}
 \alias{B3}
-\title{B3 - Retail interest rates on lending and deposits}
+\title{Retail Interest Rates on Lending and Deposits}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/b3} for a full description.
 }

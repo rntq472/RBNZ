@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{C55}
 \alias{C55}
-\title{C55 - Other financial corporations analytical accounts}
+\title{Other Financial Corporations Analytical Accounts}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/c55-other-financial-corporations-analytical-accounts} for a full description.
 }

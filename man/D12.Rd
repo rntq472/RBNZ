@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{D12}
 \alias{D12}
-\title{D12 - Standing facilities}
+\title{Standing Facilities}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/d12} for a full description.
 }

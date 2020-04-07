@@ -2,10 +2,9 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{C30}
 \alias{C30}
-\title{C30 - New residential mortgage lending by loan-to-valuation ratio (LVR)
-compliance data}
+\title{New Residential Mortgage Lending by Loan-To-Valuation Ratio}
 \arguments{
-\item{option}{Allowed values are "default" (default) and "longrun".}
+\item{option}{Allowed values are \dQuote{default} (default) and \dQuote{longrun}.}
 }
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/c30} for a full description.

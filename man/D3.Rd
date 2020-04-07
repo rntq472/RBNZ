@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{D3}
 \alias{D3}
-\title{D3 - Open market operations}
+\title{Open Market Operations}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/d3} for a full description.
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{S20}
 \alias{S20}
-\title{S20 - Banks: Summary income statement and related ratios}
+\title{Banks: Summary Income Statement and Related Ratios}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/s20} for a full description.
 }

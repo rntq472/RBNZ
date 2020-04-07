@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{D30}
 \alias{D30}
-\title{D30 - Holdings of central government debt securities (nominal value)}
+\title{Holdings of Central Government Debt Securities}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/d30} for a full description.
 }

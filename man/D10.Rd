@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{D10}
 \alias{D10}
-\title{D10 - Influences on settlement cash}
+\title{Influences on Settlement Cash}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/d10} for a full description.
 }

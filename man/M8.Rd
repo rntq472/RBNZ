@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{M8}
 \alias{M8}
-\title{M8 - Overseas trade}
+\title{Overseas Trade}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/m8} for a full description.
 }

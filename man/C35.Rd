@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{C35}
 \alias{C35}
-\title{C35 - Residential mortgage loan reconciliation}
+\title{Residential Mortgage Loan Reconciliation}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/c35} for a full description.
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{R2}
 \alias{R2}
-\title{R2 - Reserve Bank statistical balance sheet ($m)}
+\title{Reserve Bank Statistical Balance Sheet}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/r2} for a full description.
 }

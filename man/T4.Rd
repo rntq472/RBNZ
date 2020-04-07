@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{T4}
 \alias{T4}
-\title{T4 - Non banks: Funding and claims by sector ($m)}
+\title{Non Banks: Funding and Claims by Sector}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/t4} for a full description.
 }

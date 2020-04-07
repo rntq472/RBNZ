@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{L1}
 \alias{L1}
-\title{L1 - Mismatch ratios}
+\title{Mismatch Ratios}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/l1} for a full description.
 }

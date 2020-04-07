@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{C5}
 \alias{C5}
-\title{C5 - Sector lending (registered banks and non-bank lending institutions)}
+\title{Sector Lending}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/c5} for a full description.
 }

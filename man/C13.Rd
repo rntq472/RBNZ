@@ -2,9 +2,9 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{C13}
 \alias{C13}
-\title{C13 - Credit card spending}
+\title{Credit Card Spending}
 \arguments{
-\item{option}{Allowed values are "issued" (default) and "used".}
+\item{option}{Allowed values are \dQuote{issued} (default) and \dQuote{used}.}
 }
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/c13} for a full description.

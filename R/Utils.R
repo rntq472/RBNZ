@@ -1,4 +1,18 @@
-
+##' List All Data Series Available for Download
+##'
+##' @return Character vector of series names.
+##'
+##' @author Jasper Watson
+##'
+##' @examples
+##'
+##' print(allAvailableSeries())
+##'
+##' @export
+##' 
+##
+allAvailableSeries <- function()
+    names(seriesOptions())
 
 
 `%!in%` <- function(x, y)
@@ -9,9 +23,6 @@ cat0 <- function(...)
 
 baseURL <- function()
     'https://www.rbnz.govt.nz/statistics'
-
-allSeries <- function()
-    names(seriesOptions())
 
 specialCases <- function()
     c('D3', 'D10', 'D12', 'F5', 'F3', 'F4', 'E1', 'SDDS')

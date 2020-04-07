@@ -1,14 +1,12 @@
 Package: RBNZ
 Title: Download Data from the Reserve Bank of New Zealand Website
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: 
     person(given = "Jasper",
            family = "Watson",
            role = c("aut", "cre"),
            email = "jasper.g.watson@gmail.com")
-Description: Downloads data spreadsheets from the website of the Reserve Bank
-    of New Zealand (RBNZ) and reads them into R. See
-    <https://www.rbnz.govt.nz/statistics> for context.
+Description: Provides a convenient way of accessing data published by the Reserve Bank of New Zealand (RBNZ) on their website, <https://www.rbnz.govt.nz/statistics>. A range of financial and economic data is provided in spreadsheet format including exchange and interest rates, commercial lending statistics, Reserve Bank market operations, financial institution statistics, household financial data, New Zealand debt security information, and economic indicators. This package provides a method to download those spreadsheets and read them directly into R.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -24,3 +22,4 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+BugReports: https://github.com/rntq472/RBNZ/issues

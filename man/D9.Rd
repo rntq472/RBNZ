@@ -2,9 +2,9 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{D9}
 \alias{D9}
-\title{D9 - Government bond turnover}
+\title{Government Bond Turnover}
 \arguments{
-\item{option}{Allowed values are "daily" (default) and "monthly".}
+\item{option}{Allowed values are \dQuote{daily} (default) and \dQuote{monthly}.}
 }
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/d9} for a full description.

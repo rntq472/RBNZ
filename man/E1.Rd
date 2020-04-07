@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{E1}
 \alias{E1}
-\title{E1 - New Zealand's official overseas reserves}
+\title{New Zealand's Official Overseas Reserves}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/e1} for a full description.
 }

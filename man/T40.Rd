@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{T40}
 \alias{T40}
-\title{T40 - Funds under management ($m)}
+\title{Funds Under Management}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/t40} for a full description.
 }

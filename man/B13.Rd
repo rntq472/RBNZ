@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{B13}
 \alias{B13}
-\title{B13 - Historical TWI weights}
+\title{Historical TWI Weights}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/b13} for a full description.
 }

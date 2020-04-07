@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{T42}
 \alias{T42}
-\title{T42 - Life insurance ($m)}
+\title{Life Insurance}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/t42} for a full description.
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{L2}
 \alias{L2}
-\title{L2 - Core funding ratio}
+\title{Core Funding Ratio}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/l2} for a full description.
 }

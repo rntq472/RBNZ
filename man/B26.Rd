@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{B26}
 \alias{B26}
-\title{B26 - New interest bearing term deposit interest rates}
+\title{New Interest Bearing Term Deposit Interest rates}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/b26-new-interest-bearing-term-deposit-interest-rates}
 for a full description.

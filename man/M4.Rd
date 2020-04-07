@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{M4}
 \alias{M4}
-\title{M4 - Domestic trade}
+\title{Domestic Trade}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/m4} for a full description.
 }

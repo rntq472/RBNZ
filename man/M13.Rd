@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{M13}
 \alias{M13}
-\title{M13 - Household inflation expectations}
+\title{Household Inflation Expectations}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/m13} for a full description.
 }

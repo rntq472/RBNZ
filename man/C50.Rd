@@ -2,9 +2,9 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{C50}
 \alias{C50}
-\title{C50 - Money and credit aggregates (depository corporations)}
+\title{Money and Credit Aggregates (Depository Corporations)}
 \arguments{
-\item{option}{Allowed values are "default" (default) and "longrun".}
+\item{option}{Allowed values are \dQuote{default} (default) and \dQuote{longrun}.}
 }
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/c50-money-and-credit-aggregates}

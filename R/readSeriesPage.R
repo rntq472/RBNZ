@@ -1,4 +1,4 @@
-##' Determine the URL of a Webpage Pertaining to a Series.
+##' Determine the URL of a Webpage Pertaining to a Series
 ##' 
 ##' @inheritParams getSeries
 ##' 
@@ -55,12 +55,12 @@ getSeriesPageURL <- function(series){
     
 }
 
-##' Read a Series Webpage Into an XML object.
+##' Read a Series Webpage Into an XML object
 ##' 
 ##' @inheritParams getSeries
 ##' 
-##' @return An XML document returned by xml2::read_html containing the webpage pertaining
-##'         to the desired series.
+##' @return An XML document returned by xml2::read_html containing the webpage
+##'         pertaining to the desired series.
 ##' 
 ##' @author Jasper Watson
 ##' 
@@ -82,8 +82,7 @@ readSeriesPage <- function(series, quiet = TRUE){
                )
     
     if (inherits(Foo, 'try-error') || Foo > 0){
-        cat0('Error. Could not download page:\n', url, '\n')
-        return(invisible(NULL))
+        stop('Could not download ', url)
     }
     
     out <- read_html(tmp)

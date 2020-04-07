@@ -2,9 +2,10 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{C12}
 \alias{C12}
-\title{C12 - Credit card balances}
+\title{Credit Card Balances}
 \arguments{
-\item{option}{Allowed values are "monthend" (default) and "dailyaverage".}
+\item{option}{Allowed values are \dQuote{monthend} (default) and
+\dQuote{dailyaverage}.}
 }
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/c12} for a full description.

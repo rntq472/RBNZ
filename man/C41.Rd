@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{C41}
 \alias{C41}
-\title{C41 - Residential mortgage borrower gross income (BGI)}
+\title{Residential Mortgage Borrower Gross Income (BGI)}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/c41-residential-mortgage-borrower-gross-income-bgi}
 for a full description.

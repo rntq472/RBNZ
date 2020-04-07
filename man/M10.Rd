@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{M10}
 \alias{M10}
-\title{M10 - Housing}
+\title{Housing}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/m10} for a full description.
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{S21}
 \alias{S21}
-\title{S21 - Banks: Income statement ($m)}
+\title{Banks: Income Statement}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/s21} for a full description.
 }

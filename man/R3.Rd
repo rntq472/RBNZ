@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{R3}
 \alias{R3}
-\title{R3 - Reserve Bank analytical accounts ($m)}
+\title{Reserve Bank Analytical Accounts}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/r3} for a full description.
 }

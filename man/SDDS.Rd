@@ -2,10 +2,10 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{SDDS}
 \alias{SDDS}
-\title{SDDS - NZ’s international reserves and foreign currency liquidity}
+\title{NZ's International Reserves and Foreign Currency Liquidity}
 \arguments{
-\item{option}{Allowed values are "current" (default) and a year and month
-specified in the form "20nn-nn".}
+\item{option}{Allowed values are \dQuote{current} (default) and a year and month
+specified in the form \dQuote{20nn-nn}.}
 }
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/sdds} for a full description.

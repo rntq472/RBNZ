@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{C40}
 \alias{C40}
-\title{C40 - Residential mortgage lending by debt-to-income (DTI) purpose use}
+\title{Residential Mortgage Lending by Debt-To-Income Purpose Use}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/c40-residential-mortgage-lending-by-debt-to-income-dti-purpose-use}
 for a full description.

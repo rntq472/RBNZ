@@ -3,11 +3,16 @@
 \docType{package}
 \name{RBNZ}
 \alias{RBNZ}
-\title{Access Data from the Reserve Bank of New Zealand Website.}
+\title{Access Data from the Reserve Bank of New Zealand Website}
 \description{
-Downloads data spreadsheets from the website of the Reserve Bank of New
-Zealand (RBNZ) and reads them into R. See <https://www.rbnz.govt.nz/statistics>
-for context.
+Provides a convenient way of accessing data published by the Reserve Bank
+of New Zealand (RBNZ) on their website,
+<https://www.rbnz.govt.nz/statistics>. A range of financial and economic
+data is provided in spreadsheet format including exchange and interest
+rates, commercial lending statistics, Reserve Bank market operations,
+financial institution statistics, household financial data, New Zealand
+debt security information, and economic indicators. This package provides
+a method to download those spreadsheets and read them directly into R.
 }
 \details{
 The copyright notice for this data can be found at

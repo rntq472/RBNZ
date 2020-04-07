@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{M5}
 \alias{M5}
-\title{M5 - Gross Domestic Product}
+\title{Gross Domestic Product}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/m5} for a full description.
 }

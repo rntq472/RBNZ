@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{C31}
 \alias{C31}
-\title{C31 - New residential mortgage lending by borrower type}
+\title{New Residential Mortgage Lending by Borrower Type}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/c31} for a full description.
 }

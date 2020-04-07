@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{S32}
 \alias{S32}
-\title{S32 - Banks: Assets – Loans by product ($m)}
+\title{Banks: Assets – Loans by Product}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/s32-banks-assets-loans-by-product}
 for a full description.

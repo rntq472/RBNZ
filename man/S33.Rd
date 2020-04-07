@@ -2,9 +2,9 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{S33}
 \alias{S33}
-\title{S33 - Banks: Assets – Loans fully secured by residential mortgage by repricing ($m)}
+\title{Banks: Assets – Loans Fully Secured by Residential Mortgage}
 \arguments{
-\item{option}{Allowed values are "default" (default) and "longrun".}
+\item{option}{Allowed values are \dQuote{default} (default) and \dQuote{longrun}.}
 }
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/s33-banks-assets-loans-fully-secured-by-residential-mortgage-by-repricing}

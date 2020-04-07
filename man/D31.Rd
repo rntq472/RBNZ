@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{D31}
 \alias{D31}
-\title{D31 - Non-resident holdings of individual bonds (nominal value)}
+\title{Non-Resident Holdings of Individual Bonds (Nominal Value)}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/d31} for a full description.
 }

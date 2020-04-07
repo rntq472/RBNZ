@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{S34}
 \alias{S34}
-\title{S34 - Banks: Assets – Loans and Repos by Industry ($m)}
+\title{Banks: Assets – Loans and Repos by Industry}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/s34-banks-assets-loans-by-industry}
 for a full description.

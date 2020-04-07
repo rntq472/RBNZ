@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{M14}
 \alias{M14}
-\title{M14 - Survey of expectations}
+\title{Survey of Expectations}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/m14} for a full description.
 }

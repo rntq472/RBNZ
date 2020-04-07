@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{E2}
 \alias{E2}
-\title{E2 - New Zealand's position with the IMF}
+\title{New Zealand's Position with the IMF}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/e2} for a full description.
 }

@@ -2,9 +2,9 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{M1}
 \alias{M1}
-\title{M1 - Prices}
+\title{Prices}
 \arguments{
-\item{option}{Allowed values are "default" (default) and "longrun".}
+\item{option}{Allowed values are \dQuote{default} (default) and \dQuote{longrun}.}
 }
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/m1} for a full description.

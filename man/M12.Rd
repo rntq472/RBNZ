@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{M12}
 \alias{M12}
-\title{M12 - Population and migration}
+\title{Population and Migration}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/m12} for a full description.
 }

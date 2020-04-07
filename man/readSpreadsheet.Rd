@@ -2,7 +2,7 @@
 % Please edit documentation in R/readSpreadsheet.R
 \name{readSpreadsheet}
 \alias{readSpreadsheet}
-\title{Read a Downloaded Spreadsheet.}
+\title{Read a Downloaded Spreadsheet}
 \usage{
 readSpreadsheet(
   destfile,
@@ -22,22 +22,23 @@ URL.}
 
 \item{fieldForColumnNames}{If replaceColumnNames is TRUE then this variable
 specifies which columns of the meta data file will be
-used to construct the column names. Defaults to "Series"
-but sometimes you may want to change it to "Group" or
-c("Group", "Series"). "SeriesID" is also allowed.}
+used to construct the column names.  Defaults to
+\dQuote{Series} but sometimes you may want to change
+it to \dQuote{Group} or c(\dQuote{Group},
+\dQuote{Series}).  \dQuote{SeriesID} is also allowed.}
 
 \item{deleteFiles}{Logical indicating whether to delete the spreadsheet after
 reading it.}
 }
 \value{
 The contents of the spreadsheet. For most series this will be in the
-        form of a list of two data frames, one called "data" and the other
-        "meta". For some series (see specialCases()), the data is not in the
-        standard format as the rest and so is just returned directly as
-        the results of read_xlsx for each sheet in the spreadsheet.
+        form of a list of two data frames, one called \dQuote{data} and the
+        other \dQuote{meta}. For some series (see specialCases()), the data
+        is not in the standard format as the rest and so is just returned
+        directly as the results of read_xlsx for each sheet in the spreadsheet.
 }
 \description{
-Read a Downloaded Spreadsheet.
+Read a Downloaded Spreadsheet
 }
 \note{
 Series B13 doesn't have a full date specified, only year or month and

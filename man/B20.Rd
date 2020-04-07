@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{B20}
 \alias{B20}
-\title{B20 - New residential mortgage standard interest rates}
+\title{New Residential Mortgage Standard Interest Rates}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/b20-new-customer-average-rate}
 for a full description.

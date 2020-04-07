@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{B25}
 \alias{B25}
-\title{B25 - New interest bearing call savings account interest rates}
+\title{New Interest Bearing Call Savings Account Interest Rates}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/b25-new-interest-bearing-call-savings-account-interest-rates}
 for a full description.

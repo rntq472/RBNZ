@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{B27}
 \alias{B27}
-\title{B27 - New interest bearing term PIE deposits interest rates}
+\title{New Interest Bearing Term PIE Deposits Interest Rates}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/b27-new-interest-bearing-term-pie-deposits-interest-rates}
 for a full description.

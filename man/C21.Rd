@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{C21}
 \alias{C21}
-\title{C21 - Key household financial statistics ($m)}
+\title{Key Household Financial Statistics}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/c21} for a full description.
 }

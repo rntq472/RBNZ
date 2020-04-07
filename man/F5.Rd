@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{F5}
 \alias{F5}
-\title{F5 - Reserve Bank foreign currency assets and liabilities}
+\title{Reserve Bank Foreign Currency Assets and Liabilities}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/f5} for a full description.
 }

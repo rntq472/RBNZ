@@ -1,33 +1,57 @@
-##' Main Interface for the RBNZ Package.
+##' Retrieve Data From the Reserve Bank of New Zealand Website
 ##' 
 ##' Retrieves data from \url{https://www.rbnz.govt.nz/statistics} for the series
-##' specified by the user.
+##' specified by the user.  This involves downloading one or more spreadsheets
+##' and reading them into R.
 ##' 
 ##' @param series Character string giving the name of the data series to retrieve.
 ##' @param option Character string specifying which format of the data series
-##'               to retrieve, if necessary. For information on the available options see the help file for the particular series name (for example ?B1 will tell you that the B1 series can be downloaded either as daily or monthly data, with the former being the default). This argument is unnecessary for series that only have one data format.
+##'               to retrieve, if necessary.  For information on the available options
+##'               see the help file for the particular series name (for example ?B1
+##'               will tell you that the B1 series can be downloaded either as daily
+##'               or monthly data, with the former being the default).  This argument
+##'               is unnecessary for series that only have one data format.
 ##' @param replaceColumnNames Logical indicating whether to change the column names of
 ##'                           the output data from the Series ID's used in the source
 ##'                           spreadsheets to more informative values based on the
 ##'                           information in the metadata. Defaults to TRUE.
 ##' @param fieldForColumnNames If replaceColumnNames is TRUE then this variable
-##'                             specifies which columns of the meta data file will be
-##'                             used to construct the column names. Defaults to "Series"
-##'                             but sometimes you may want to change it to "Group" or
-##'                             c("Group", "Series"). "SeriesID" is also allowed.
+##'                            specifies which columns of the meta data file will be
+##'                            used to construct the column names.  Defaults to
+##'                            \dQuote{Series} but sometimes you may want to change
+##'                            it to \dQuote{Group} or c(\dQuote{Group},
+##'                            \dQuote{Series}).  \dQuote{SeriesID} is also allowed.
 ##' @param destDir File path to a directory in which to place the downloaded
-##'                spreadsheets. If not specified they will be placed into tempdir()
+##'                spreadsheets.  If not specified they will be placed into tempdir()
 ##'                and deleted on exit.
 ##' @param quiet Logical to be passed to utils::download.file.
 ##' 
-##' @return For most series a list containing the fields "meta" and "data" which
-##'         are data frames containing the metadata and actual data, respectively.
-##'         There are a few series that do not follow this format, and for these
-##'         the spreadsheets are just downloaded and read into a list of data
-##'         frames, one for each sheet, with no organising or cleaning.
+##' @return For most series a list containing the fields \dQuote{meta} and
+##'         \dQuote{data} which are data frames containing the metadata and
+##'         actual data, respectively.  There are a few series that do not follow
+##'         this format, and for these the spreadsheets are just downloaded and
+##'         read into a list of data frames, one for each sheet, with no organising
+##'         or cleaning.
 ##' 
 ##' @author Jasper Watson
+##'
+##' @examples
+##'
+##' ## List the available data series.
+##' print(allAvailableSeries())
+##'
+##' \dontrun{
 ##' 
+##' ## Download exchange rate data and plot NZD vs sterling.
+##' b1 <- getSeries('B1')
+##' plot(b1$data$Date, b1$data$UK_pound_sterling, type = 'l')
+##'
+##' ## Now use monthly data (previous was daily).
+##' b1_monthly <- getSeries('B1', 'monthly')
+##' plot(b1_monthly$data$Date, b1_monthly$data$UK_pound_sterling,
+##'      type = 'l')
+##'
+##' }
 ##' @export
 ##' 
 ##
@@ -50,7 +74,7 @@ getSeries <- function(series,
         return(getSDDS(series, option, destDir, quiet,
                        deleteFiles, fieldForColumnNames))
     
-    stopifnot(series %in% allSeries(),
+    stopifnot(series %in% allAvailableSeries(),
               length(series) == 1,
               length(option) == 1,
               option %in% allowedOptions(series),
@@ -84,8 +108,7 @@ getSeries <- function(series,
                    )
         
         if (inherits(Foo, 'try-error') || Foo > 0){
-            cat0('Error. Could not download file:\n', url, '\n')
-            return(invisible(NULL))
+            stop('Could not download ', url)
         }
         
         results <- readSpreadsheet(destfile, series, subFileName,

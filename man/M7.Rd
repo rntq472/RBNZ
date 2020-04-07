@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{M7}
 \alias{M7}
-\title{M7 - Balance of Payments and International Investment Position}
+\title{Balance of Payments and International Investment Position}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/m7} for a full description.
 }

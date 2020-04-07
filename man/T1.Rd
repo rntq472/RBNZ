@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{T1}
 \alias{T1}
-\title{T1 - Non banks: Balance sheet ($m)}
+\title{Non Banks: Balance Sheet}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/t1} for a full description.
 }

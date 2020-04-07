@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{C60}
 \alias{C60}
-\title{C60 - Credit conditions survey}
+\title{Credit Conditions Survey}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/c60-credit-conditions-survey}
 for a full description.

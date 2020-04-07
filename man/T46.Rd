@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{T46}
 \alias{T46}
-\title{T46 - Cash management trusts ($m)}
+\title{Cash Management Trusts}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/t46} for a full description.
 }

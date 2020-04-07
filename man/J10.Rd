@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{J10}
 \alias{J10}
-\title{J10 - Insurance: Income Statement}
+\title{Insurance: Income Statement}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/j10-insurance-income-statement}
 for a full description.

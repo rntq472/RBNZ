@@ -2,7 +2,7 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{T45}
 \alias{T45}
-\title{T45 - Retail unit trusts ($m)}
+\title{Retail Unit Trusts}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/t45} for a full description.
 }

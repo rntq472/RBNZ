@@ -59,7 +59,7 @@ SDDSurl <- function(subFileName, seriesPage, series, option){
 
 getSDDS <- function(series, option, destDir, quiet, deleteFiles, fieldForColumnNames){
     
-    stopifnot(series %in% allSeries(),
+    stopifnot(series %in% allAvailableSeries(),
               length(series) == 1,
               length(option) == 1)
     
@@ -69,9 +69,7 @@ getSDDS <- function(series, option, destDir, quiet, deleteFiles, fieldForColumnN
     allFiles <- sapply(paste0('SDDS_', option), function(x) NULL,
                        USE.NAMES = TRUE, simplify = FALSE)
     
-    ii <- 1
-    
-    subFileName <- names(allFiles)[ii]
+    subFileName <- names(allFiles)
     
     url <- SDDSurl(subFileName, seriesPage, series, option)
     
@@ -88,8 +86,7 @@ getSDDS <- function(series, option, destDir, quiet, deleteFiles, fieldForColumnN
                )
     
     if (inherits(Foo, 'try-error') || Foo > 0){
-        cat0('Error. Could not download file:\n', url, '\n')
-        return(invisible(NULL))
+        stop('Could not download ', url)
     }
     
     results <- readSpreadsheet(destfile, series, subFileName, fieldForColumnNames,

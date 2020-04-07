@@ -6,3 +6,12 @@
 ## R CMD check results
 * No errors or warnings.
 * One note - first submission of this package.
+
+## Resubmitted to address CRAN comments:
+* Expanded the Description field of the DESCRIPTION file to explain more about
+  what the package does.
+* Fixed .Rd file titles to meet required format.
+* Removed calls to cat() that were not easy to suppress.
+* Added examples to the Rd file of exported functions.
+* Exported an extra function (allAvailableSeries) to make the examples more
+  self-contained.
