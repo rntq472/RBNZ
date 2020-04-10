@@ -1,6 +1,6 @@
 Package: RBNZ
 Title: Download Data from the Reserve Bank of New Zealand Website
-Version: 1.0.1
+Version: 1.0.1.9000
 Authors@R: 
     person(given = "Jasper",
            family = "Watson",

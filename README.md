@@ -11,6 +11,9 @@ Installation
 ------------
 
 ``` r
+## Install from CRAN:
+install.packages('RBNZ')
+
 ## Install the development version from GitHub:
 ## install.packages("devtools")
 devtools::install_github("rntq472/RBNZ")
