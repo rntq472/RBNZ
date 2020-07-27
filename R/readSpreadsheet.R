@@ -147,6 +147,21 @@ readSpreadsheet <- function(destfile, series, subFileName, fieldForColumnNames,
                                                    'date', 'numeric')
                                  )
         
+    }  else if (series == 'C66'){
+
+        ## C66 has "-" in a numeric column. This is fine but we will treat it
+        ## separately so that we can suppress the warnings.
+
+        suppressWarnings({
+            dat <- readxl::read_xlsx(destfile,
+                                     sheet = 'Data',
+                                     skip = 4,
+                                     .name_repair = 'minimal',
+                                     col_type = ifelse(grepl('Date', colNames),
+                                                       'date', 'numeric')
+                                     )
+        })
+        
     } else {
         
         dat <- readxl::read_xlsx(destfile,

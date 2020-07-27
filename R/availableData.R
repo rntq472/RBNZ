@@ -28,6 +28,8 @@ availableData <- function(){
                            "C52", "", "Depository corporations analytical accounts",
                            "C55", "", "Other financial corporations analytical accounts",
                            "C60", "", "Credit conditions survey",
+                           "C65", "", "Bank Customer Lending flows",
+                           "C66", "", "Bank Customer Lending stocks",
                            "D3", "X", "Open market operations",
                            "D10", "X", "Influences on settlement cash",
                            "D12", "X", "Standing facilities",

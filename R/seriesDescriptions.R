@@ -307,6 +307,28 @@ NULL
 ##' 
 NULL
 
+##' Bank Customer Lending Flows
+##' 
+##' See \url{https://www.rbnz.govt.nz/statistics/c65-bank-customer-lending-flows}
+##' for a full description.
+##' 
+##' @name C65
+##' 
+##' @keywords internal
+##' 
+NULL
+
+##' Bank Customer Lending Stocks
+##' 
+##' See \url{https://www.rbnz.govt.nz/statistics/c66-bank-customer-lending-stocks}
+##' for a full description.
+##' 
+##' @name C66
+##' 
+##' @keywords internal
+##' 
+NULL
+
 ##' Open Market Operations
 ##'
 ##' See \url{https://www.rbnz.govt.nz/statistics/d3} for a full description.

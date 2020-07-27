@@ -48,6 +48,8 @@ seriesOptions <- function(series){
         C52 = list(default = 'hC52'),
         C55 = list(default = 'hC55'),
         C60 = list(default = 'hc60'), ## ec60 not returned.
+        C65 = list(default = 'hc65'),
+        C66 = list(default = 'hc66'),
         D3 = list(default = 'hd3'),
         D10 = list(default = 'hd10'),
         D12 = list(default = 'hd12'),

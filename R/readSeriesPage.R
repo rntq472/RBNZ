@@ -36,6 +36,8 @@ getSeriesPageURL <- function(series){
                   C52 = 'c52-depository-corporations-analytical-accounts',
                   C55 = 'c55-other-financial-corporations-analytical-accounts',
                   C60 = 'c60-credit-conditions-survey',
+                  C65 = 'c65-bank-customer-lending-flows',
+                  C66 = 'c66-bank-customer-lending-stocks',
                   S10 = 's10-banks-balance-sheet',
                   S30 = 's30-banks-assets-loans-by-sector',
                   S31 = 's31-banks-assets-loans-by-purpose',
