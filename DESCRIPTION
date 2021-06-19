@@ -1,6 +1,6 @@
 Package: RBNZ
 Title: Download Data from the Reserve Bank of New Zealand Website
-Version: 1.1.0
+Version: 1.1.0.9000
 Authors@R: 
     person(given = "Jasper",
            family = "Watson",
@@ -20,6 +20,8 @@ Imports:
     xml2
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    RSelenium,
+    wdman
 VignetteBuilder: knitr
 BugReports: https://github.com/rntq472/RBNZ/issues
