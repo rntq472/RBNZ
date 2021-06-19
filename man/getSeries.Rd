@@ -9,7 +9,7 @@ getSeries(
   option = getDefaultOption(series),
   replaceColumnNames = TRUE,
   fieldForColumnNames = "Series",
-  destDir,
+  destDir = NULL,
   quiet = TRUE
 )
 }

@@ -3,10 +3,6 @@
 \name{SDDS}
 \alias{SDDS}
 \title{NZ's International Reserves and Foreign Currency Liquidity}
-\arguments{
-\item{option}{Allowed values are \dQuote{current} (default) and a year and month
-specified in the form \dQuote{20nn-nn}.}
-}
 \description{
 See \url{https://www.rbnz.govt.nz/statistics/sdds} for a full description.
 }

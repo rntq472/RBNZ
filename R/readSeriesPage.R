@@ -69,22 +69,30 @@ getSeriesPageURL <- function(series){
 ##' @keywords internal
 ##' 
 ##
-readSeriesPage <- function(series, quiet = TRUE){
+readSeriesPage <- function(series, quiet = TRUE, destDir, deleteFiles){
     
     url <- getSeriesPageURL(series)
-    
-    tmp <- tempfile(pattern = "RBNZ", fileext = ".html")
-    on.exit(unlink(tmp))
-    
-    Foo <- try(download.file(url = url,
-                             destfile = tmp,
-                             mode = 'wb',
-                             quiet = quiet
-                             )
-               )
-    
-    if (inherits(Foo, 'try-error') || Foo > 0){
-        stop('Could not download ', url)
+
+    if (deleteFiles | !file.exists(file.path(destDir, paste0(series, '.html'))) ){
+        
+        tmp <- tempfile(pattern = "RBNZ", fileext = ".html")
+        on.exit(unlink(tmp))
+        
+        Foo <- try(download.file(url = url,
+                                 destfile = tmp,
+                                 mode = 'wb',
+                                 quiet = quiet
+                                 )
+                   )
+        
+        if (inherits(Foo, 'try-error') || Foo > 0){
+            stop('Could not download ', url)
+        }
+
+    } else {
+
+        tmp <- file.path(destDir, paste0(series, '.html'))
+
     }
     
     out <- read_html(tmp)

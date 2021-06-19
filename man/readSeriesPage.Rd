@@ -4,12 +4,16 @@
 \alias{readSeriesPage}
 \title{Read a Series Webpage Into an XML object}
 \usage{
-readSeriesPage(series, quiet = TRUE)
+readSeriesPage(series, quiet = TRUE, destDir, deleteFiles)
 }
 \arguments{
 \item{series}{Character string giving the name of the data series to retrieve.}
 
 \item{quiet}{Logical to be passed to utils::download.file.}
+
+\item{destDir}{File path to a directory in which to place the downloaded
+spreadsheets.  If not specified they will be placed into tempdir()
+and deleted on exit.}
 }
 \value{
 An XML document returned by xml2::read_html containing the webpage

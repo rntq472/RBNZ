@@ -59,20 +59,16 @@ getSeries <- function(series,
                       option = getDefaultOption(series),
                       replaceColumnNames = TRUE,
                       fieldForColumnNames = 'Series',
-                      destDir,
+                      destDir = NULL,
                       quiet = TRUE
                       ){
     
-    if (missing(destDir) ){
+    if (is.null(destDir) ){
         destDir <- tempdir()
         deleteFiles <- TRUE
     } else {
         deleteFiles <- FALSE
     }
-    
-    if (series == 'SDDS')
-        return(getSDDS(series, option, destDir, quiet,
-                       deleteFiles, fieldForColumnNames))
     
     stopifnot(series %in% allAvailableSeries(),
               length(series) == 1,
@@ -82,7 +78,7 @@ getSeries <- function(series,
               )
     
     ## Each data series has it's own webpage containing the files to be downloaded.
-    seriesPage <- readSeriesPage(series, quiet)
+    seriesPage <- readSeriesPage(series, quiet, destDir, deleteFiles)
     
     if (is.null(seriesPage))
         return(NULL)
@@ -97,24 +93,38 @@ getSeries <- function(series,
         subFileName <- names(allFiles)[ii]
         
         destfile <- path.expand(file.path(destDir, paste0(subFileName, '.xlsx')))
-        
-        url <- getDownloadLink(subFileName, seriesPage, series)
-        
-        Foo <- try(download.file(url = url,
-                                 destfile = destfile,
-                                 mode = 'wb',
-                                 quiet = quiet
-                                 )
-                   )
-        
-        if (inherits(Foo, 'try-error') || Foo > 0){
-            stop('Could not download ', url)
+
+        if (!file.exists(destfile) ){
+            
+            url <- getDownloadLink(subFileName, seriesPage, series)
+            
+            Foo <- try(download.file(url = url,
+                                     destfile = destfile,
+                                     mode = 'wb',
+                                     quiet = quiet
+                                     )
+                       )
+            
+            if (inherits(Foo, 'try-error') || Foo > 0){
+                stop('Could not download ', url)
+            }
+
         }
         
         results <- readSpreadsheet(destfile, series, subFileName,
                                    fieldForColumnNames, deleteFiles)
         
         allFiles[[ii]] <- results
+        
+    }
+
+    if (series == 'SDDS'){
+
+        out <- allFiles[[1]]
+        out <- append(out, allFiles[[2]])
+        out <- append(out, allFiles[[3]])
+
+        return(out)
         
     }
     

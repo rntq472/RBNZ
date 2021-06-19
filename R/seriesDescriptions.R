@@ -957,9 +957,6 @@ NULL
 ##' See \url{https://www.rbnz.govt.nz/statistics/sdds} for a full description.
 ##' 
 ##' @name SDDS
-##'
-##' @param option Allowed values are \dQuote{current} (default) and a year and month
-##'               specified in the form \dQuote{20nn-nn}.
 ##' 
 ##' @note This is a non-standard dataset.
 ##' 

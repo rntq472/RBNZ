@@ -14,12 +14,22 @@
 ##' 
 ##
 getDownloadLink <- function(subFileName, seriesPage, series){
-    
-    xpath <- paste0("//*[contains(@href, '/-/media/ReserveBank/Files/Statistics/tables/",
-                    tolower(series),
-                    "/",
+
+    if (series == 'SDDS'){
+        
+        xpath <- paste0("//*[contains(@href, '/-/media/ReserveBank/Files/Statistics/sdds/",
                     subFileName,
-                    ".xlsx')]")
+                    "')]")
+        
+    } else {
+        
+        xpath <- paste0("//*[contains(@href, '/-/media/ReserveBank/Files/Statistics/tables/",
+                        tolower(series),
+                        "/",
+                        subFileName,
+                        ".xlsx')]")
+
+    }
     
     linkNode <- html_nodes(seriesPage, xpath = xpath)
     

@@ -49,7 +49,35 @@ For a full description of the arguments of `getSeries`, see the package manual.
 
 ## Non-standard Data
 
-The majority of the datasets available are all stored in a similar format, with data organised by date and a standard set of metadata. There are a few series that do not follow this template, as indicated below, and for these the spreadsheets are just downloaded and read into a list of data frames, one for each sheet, with no organising or cleaning.
+The majority of the datasets available are all stored in a similar format, with data organised by date and a standard set of metadata. There are a few series that do not follow this template, as indicated in the final section of this document, and for these the spreadsheets are just downloaded and read into a list of data frames, one for each sheet, with no organising or cleaning.
+
+## Release Calendar
+
+The Reserve Bank provide a release timetable for their datasets (https://www.rbnz.govt.nz/statistics/statistics-release-calendar). This can be retrieved by the RBNZ package using the `getReleaseCalendar` function but it requires the RSelenium package to be installed (https://CRAN.R-project.org/package=RSelenium).
+
+There are a number of drivers that RSelenium can use; the `getReleaseCalendar` function is implemented such that the default option is to use PhantomJS (https://phantomjs.org/). If this is installed and on your path then you should be able to simply call:
+
+
+```{r, echo = TRUE, eval = FALSE, tidy = FALSE}
+x <- RBNZ::getReleaseCalendar()
+```
+
+If that doesn't work or you don't want to install PhantomJS the other option is to use a headless Firefox or Chrome browser. The former requires geckodriver to be installed and on your path (https://github.com/mozilla/geckodriver), while the latter requires ChromeDriver (https://sites.google.com/a/chromium.org/chromedriver/). They also require a flag to be passed to RSelenium::rsDriver to signal that a headless browser should be used:
+
+
+```{r, echo = TRUE, eval = FALSE, tidy = FALSE}
+x <- getReleaseCalendar(browser = 'firefox',
+                        extraCapabilities = list("moz:firefoxOptions" =
+                                                     list(args = list('--headless')))
+                        )
+
+x <- getReleaseCalendar(browser = 'chrome',
+                        extraCapabilities = list("chromeOptions" =
+                                                     list(args = list('--headless')))
+                        )
+```
+
+You might need to use the geckover or chromever arguments to RSelenium::rDriver (passed through getReleaseCalendar using ...) to ensure that your browser and driver versions are compatible.
 
 ## Available Data
 

@@ -114,7 +114,7 @@ seriesOptions <- function(series){
         M14 = list(default = 'hm14'),
         E1 = list(default = 'he1'),
         E2 = list(default = 'he2'),
-        SDDS = list(current = 'current')
+        SDDS = list(default = c('sdds-monthly', 'sdds-monthly-2010-2020', 'sdds-monthly-2000-2009'))
     )
     
     if (missing(series) ){
