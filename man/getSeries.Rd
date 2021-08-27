@@ -10,7 +10,8 @@ getSeries(
   replaceColumnNames = TRUE,
   fieldForColumnNames = "Series",
   destDir = NULL,
-  quiet = TRUE
+  quiet = TRUE,
+  wait = 60
 )
 }
 \arguments{
@@ -40,6 +41,11 @@ spreadsheets.  If not specified they will be placed into tempdir()
 and deleted on exit.}
 
 \item{quiet}{Logical to be passed to utils::download.file.}
+
+\item{wait}{Numeric giving the number of seconds to wait between downloads.
+Defaults to 60. Note that this applies to reading the series page
+and to each individual spreadsheet download, so a series with one
+spreadsheet would have two downloads sixty seconds apart.}
 }
 \value{
 For most series a list containing the fields \dQuote{meta} and

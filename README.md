@@ -22,16 +22,15 @@ install.packages('RBNZ')
 devtools::install_github("rntq472/RBNZ")
 ```
 
-# Note - this package is currently unable to function after the RBNZ put their website behind Cloudflare.
+## Note - the RBNZ website has been put behind Cloudflare so now there are some extra steps for using this package.
 
-In March 2021 the Reserve Bank made changes to their website which
-blocked robots and scrapers, including this package. I have reached out
-to them to address this but so far have not had any luck getting a
-response; I will continue to try and resolve the issue.
+One option is to email the RBNZ and request that your public IP address
+be whitelisted. The email to contact is listed
+[here](https://www.rbnz.govt.nz/robots-botnets-and-scrapers-terms-of-service).
 
-In the meantime I have made edits to the package so that users can
-download the data spreadsheets manually and then use the data processing
-functionality of this package. It works as follows:
+The second option is to download the necessary files from the RBNZ
+website manually through your browser and then use this package to read
+and organise those files. This can be done as follows:
 
 Users must download the webpage of the series they are interested in and
 save the html file as series.html. They then must download the

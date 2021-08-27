@@ -47,6 +47,36 @@ Each series has a help file so typing, for example `?B1`, will tell you what opt
 
 For a full description of the arguments of `getSeries`, see the package manual.
 
+### Cloudflare
+
+The RBNZ website is behind Cloudflare so there are some initial steps the user must take.
+
+One option is to email the RBNZ and request that your public IP address be whitelisted. The email to contact is listed on their terms of service page [here](https://www.rbnz.govt.nz/robots-botnets-and-scrapers-terms-of-service).
+
+The second option is to download the necessary files from the RBNZ website manually through your browser and then use this package to read and organise those files. This can be done as follows:
+
+Download the webpage of the series you are interested in and save the html file as series.html. You then must download the spreadsheets needed from that page and save them in the same directory without changing their file names.
+
+For example for the B1 series a user could download the webpage https://www.rbnz.govt.nz/statistics/b1 through their browser and save it as B1.html. In the same directory they would download and save the following spreadsheets.
+
+* hb1-daily-1973-1998.xlsx
+* hb1-daily-1999-2017.xlsx
+* hb1-daily.xlsx
+
+They could then load the data as follows:
+
+``` r
+
+library(RBNZ)
+
+dat <- getSeries('B1', destDir = 'path_to_downloaded_files')
+
+```
+
+The monthly option can be used after downloading hb1-monthly.xlsx and hb1-monthly-1973-1998.xlsx.
+
+This option is not ideal as the spreadsheets need to be manually downloaded every time you want them updated but for users who don't have a permanent public IP address they can get whitelisted this is the best that can be done.
+
 ## Non-standard Data
 
 The majority of the datasets available are all stored in a similar format, with data organised by date and a standard set of metadata. There are a few series that do not follow this template, as indicated in the final section of this document, and for these the spreadsheets are just downloaded and read into a list of data frames, one for each sheet, with no organising or cleaning.

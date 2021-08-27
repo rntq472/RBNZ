@@ -25,6 +25,10 @@
 ##'                spreadsheets.  If not specified they will be placed into tempdir()
 ##'                and deleted on exit.
 ##' @param quiet Logical to be passed to utils::download.file.
+##' @param wait Numeric giving the number of seconds to wait between downloads.
+##'             Defaults to 60. Note that this applies to reading the series page
+##'             and to each individual spreadsheet download, so a series with one
+##'             spreadsheet would have two downloads sixty seconds apart.
 ##' 
 ##' @return For most series a list containing the fields \dQuote{meta} and
 ##'         \dQuote{data} which are data frames containing the metadata and
@@ -60,7 +64,8 @@ getSeries <- function(series,
                       replaceColumnNames = TRUE,
                       fieldForColumnNames = 'Series',
                       destDir = NULL,
-                      quiet = TRUE
+                      quiet = TRUE,
+                      wait = 60
                       ){
     
     if (is.null(destDir) ){
@@ -78,7 +83,7 @@ getSeries <- function(series,
               )
     
     ## Each data series has it's own webpage containing the files to be downloaded.
-    seriesPage <- readSeriesPage(series, quiet, destDir, deleteFiles)
+    seriesPage <- readSeriesPage(series, quiet, destDir, deleteFiles, wait)
     
     if (is.null(seriesPage))
         return(NULL)
@@ -108,6 +113,8 @@ getSeries <- function(series,
             if (inherits(Foo, 'try-error') || Foo > 0){
                 stop('Could not download ', url)
             }
+
+            Sys.sleep(wait)
 
         }
         

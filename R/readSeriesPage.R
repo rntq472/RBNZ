@@ -69,7 +69,7 @@ getSeriesPageURL <- function(series){
 ##' @keywords internal
 ##' 
 ##
-readSeriesPage <- function(series, quiet = TRUE, destDir, deleteFiles){
+readSeriesPage <- function(series, quiet = TRUE, destDir, deleteFiles, wait = 60){
     
     url <- getSeriesPageURL(series)
 
@@ -88,6 +88,8 @@ readSeriesPage <- function(series, quiet = TRUE, destDir, deleteFiles){
         if (inherits(Foo, 'try-error') || Foo > 0){
             stop('Could not download ', url)
         }
+
+        Sys.sleep(wait)
 
     } else {
 
