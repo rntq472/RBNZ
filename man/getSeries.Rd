@@ -9,6 +9,8 @@ getSeries(
   option = getDefaultOption(series),
   replaceColumnNames = TRUE,
   fieldForColumnNames = "Series",
+  reloadOnlyLatest = TRUE,
+  cacheOnly = FALSE,
   destDir = NULL,
   quiet = TRUE,
   wait = 60
@@ -36,8 +38,17 @@ used to construct the column names.  Defaults to
 it to \dQuote{Group} or c(\dQuote{Group},
 \dQuote{Series}).  \dQuote{SeriesID} is also allowed.}
 
+\item{reloadOnlyLatest}{Logical indicated whether to skip downloading files containing
+past data (with a defined endpoint) if they already exist. For example if a series has
+separate spreadsheets for start-to-2015 and 2015-onwards then we don't need to repeatedly
+download the former item; only the latter one will be updated.}
+
+\item{cacheOnly}{Logical indicating that the RBNZ website should not be read and
+the files only loaded from an existing cache on disk.}
+
 \item{destDir}{File path to a directory in which to place the downloaded
-spreadsheets.  If not specified they will be placed into tempdir()
+spreadsheets. If not specified the value of getOption("RBNZ.destDir") will
+be checked. If that is NULL too then the files will be placed into tempdir()
 and deleted on exit.}
 
 \item{quiet}{Logical to be passed to utils::download.file.}
@@ -49,11 +60,11 @@ spreadsheet would have two downloads sixty seconds apart.}
 }
 \value{
 For most series a list containing the fields \dQuote{meta} and
-        \dQuote{data} which are data frames containing the metadata and
-        actual data, respectively.  There are a few series that do not follow
-        this format, and for these the spreadsheets are just downloaded and
-        read into a list of data frames, one for each sheet, with no organising
-        or cleaning.
+\dQuote{data} which are data frames containing the metadata and
+actual data, respectively.  There are a few series that do not follow
+this format, and for these the spreadsheets are just downloaded and
+read into a list of data frames, one for each sheet, with no organising
+or cleaning.
 }
 \description{
 Retrieves data from \url{https://www.rbnz.govt.nz/statistics} for the series
@@ -74,7 +85,7 @@ plot(b1$data$Date, b1$data$UK_pound_sterling, type = 'l')
 ## Now use monthly data (previous was daily).
 b1_monthly <- getSeries('B1', 'monthly')
 plot(b1_monthly$data$Date, b1_monthly$data$UK_pound_sterling,
-     type = 'l')
+type = 'l')
 
 }
 }

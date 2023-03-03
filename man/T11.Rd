@@ -4,6 +4,6 @@
 \alias{T11}
 \title{Savings Institutions: Balance Sheet}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/t11} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/non-banks-and-other-financial-institutions/savings-institutions-balance-sheet} for a full description.
 }
 \keyword{internal}

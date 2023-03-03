@@ -4,9 +4,11 @@
 \alias{D10}
 \title{Influences on Settlement Cash}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/d10} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/reserve-bank/influences-on-settlement-cash} for a full description.
 }
 \note{
-This data is in a non-standard format.
+This data is in a non-standard format. The return value is a list containing
+the fields "C16", which is historical C16 data, and "data", which is the two D10
+spreadsheets, historical and current, combined together.
 }
 \keyword{internal}

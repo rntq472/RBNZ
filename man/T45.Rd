@@ -4,6 +4,6 @@
 \alias{T45}
 \title{Retail Unit Trusts}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/t45} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/non-banks-and-other-financial-institutions/retail-unit-trusts-assets-by-sector} for a full description.
 }
 \keyword{internal}

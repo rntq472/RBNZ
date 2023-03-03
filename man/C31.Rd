@@ -4,6 +4,6 @@
 \alias{C31}
 \title{New Residential Mortgage Lending by Borrower Type}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/c31} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/lending-and-monetary/new-residential-mortgage-lending-by-borrower-type} for a full description.
 }
 \keyword{internal}

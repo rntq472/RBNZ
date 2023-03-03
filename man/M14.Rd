@@ -4,6 +4,6 @@
 \alias{M14}
 \title{Survey of Expectations}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/m14} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/economic-indicators/population-and-migration} for a full description.
 }
 \keyword{internal}

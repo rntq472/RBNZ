@@ -4,6 +4,6 @@
 \alias{C32}
 \title{New and Existing Residential Mortgage Lending by Payment Type}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/c32} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/lending-and-monetary/new-and-existing-residential-mortgage-lending-by-payment-type2} for a full description.
 }
 \keyword{internal}

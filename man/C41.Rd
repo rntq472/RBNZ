@@ -4,7 +4,7 @@
 \alias{C41}
 \title{Residential Mortgage Borrower Gross Income (BGI)}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/c41-residential-mortgage-borrower-gross-income-bgi}
+See \url{https://www.rbnz.govt.nz/statistics/series/lending-and-monetary/residential-mortgage-borrower-gross-income-bgi}
 for a full description.
 }
 \keyword{internal}

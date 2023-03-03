@@ -4,6 +4,6 @@
 \alias{M12}
 \title{Population and Migration}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/m12} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/economic-indicators/population-and-migration} for a full description.
 }
 \keyword{internal}

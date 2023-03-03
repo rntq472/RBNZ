@@ -19,14 +19,13 @@ knitr::opts_chunk$set(
 ```{r setup, echo = FALSE}
 
 library(RBNZ)
-
 ```
 
 # RBNZ
 
-This package provides a convenient way of accessing the financial and economic data published by the Reserve Bank of New Zealand (RBNZ) on their website, https://www.rbnz.govt.nz/statistics. The data is provided in .xlsx and .xls files; this package will download those files and read them into R. A summary of the available data can be found at the end of this document.
+This package provides a convenient way of accessing the financial and economic data published by the Reserve Bank of New Zealand (RBNZ) on their website, https://www.rbnz.govt.nz/statistics. The data is provided in .xlsx files; this package will download those files and read them into R. A summary of the available data can be found at the end of this document.
 
-The author has no affiliation with the RBNZ. The copyright for the data can be found at https://www.rbnz.govt.nz/copyright.
+The author has no affiliation with the RBNZ. The copyright for the data can be found at https://www.rbnz.govt.nz/about-our-site/terms-of-use.
 
 ## Usage
 
@@ -36,28 +35,30 @@ The function for downloading the data is `getSeries`. This takes as its first ar
 library(RBNZ)
 
 ## Not evaluated in this vignette.
-b1 <- getSeries('B1')
+b1 <- getSeries("B1")
 
-plot(b1$data$Date, b1$data$UK_pound_sterling, type = 'l')
+plot(b1$data$Date, b1$data$UK_pound_sterling, type = "l")
 ```
 
 Some of the datasets have different available formats. For example the B1 series contains exchange rate data in both daily and monthly form. The second argument of `getSeries` allows the user to specify which option they want, e.g. `getSeries('B1', 'monthly')`.
 
-Each series has a help file so typing, for example `?B1`, will tell you what options, if any, are available.
+Each series has a help file so typing, for example, `?B1`, will tell you what options, if any, are available.
 
-For a full description of the arguments of `getSeries`, see the package manual.
+To speed things up the files can be saved on disk so that they don't have to always be re-downloaded even when there are no available updates. This is controlled by the `destDir` argument to `getSeries`, which can also be specified in your .Rprofile using `options(RBNZ.destDir = "path/to/stored/files")`.
+
+By default, where a series has multiple files for a given option, only the most recent will be downloaded if `destDir` is provided and the files already exist. This is controlled by the `reloadOnlyLatest` argument to `getSeries`.
+
+For a full description of the arguments of `getSeries`, see the package manual or function header.
 
 ### Cloudflare
 
-The RBNZ website is behind Cloudflare so there are some initial steps the user must take.
+The RBNZ website is now behind Cloudflare so there are some initial steps the user must take.
 
-One option is to email the RBNZ and request that your public IP address be whitelisted. The email to contact is listed on their terms of service page [here](https://www.rbnz.govt.nz/robots-botnets-and-scrapers-terms-of-service).
+One option is to email the RBNZ and request that your (static) public IP address be whitelisted. The email to contact is listed on their terms of service page [here](https://www.rbnz.govt.nz/about-our-site/terms-of-use).
 
-The second option is to download the necessary files from the RBNZ website manually through your browser and then use this package to read and organise those files. This can be done as follows:
+The second option is to download the necessary files from the RBNZ website manually through your browser and then use this package to read and organise those files. This can be done by downloading the spreadsheets needed and saving them in a given directory without changing their file names. This could be done from the individual series page or from the [summary page](https://www.rbnz.govt.nz/statistics/series/data-file-index-page).
 
-Download the webpage of the series you are interested in and save the html file as series.html. You then must download the spreadsheets needed from that page and save them in the same directory without changing their file names.
-
-For example for the B1 series a user could download the webpage https://www.rbnz.govt.nz/statistics/b1 through their browser and save it as B1.html. In the same directory they would download and save the following spreadsheets.
+For example for the B1 series a user could download through their browser the following spreadsheets:
 
 * hb1-daily-1973-1998.xlsx
 * hb1-daily-1999-2017.xlsx
@@ -66,11 +67,9 @@ For example for the B1 series a user could download the webpage https://www.rbnz
 They could then load the data as follows:
 
 ``` r
-
 library(RBNZ)
 
-dat <- getSeries('B1', destDir = 'path_to_downloaded_files')
-
+dat <- getSeries('B1', destDir = 'path_to_downloaded_files', cacheOnly = TRUE)
 ```
 
 The monthly option can be used after downloading hb1-monthly.xlsx and hb1-monthly-1973-1998.xlsx.
@@ -79,43 +78,20 @@ This option is not ideal as the spreadsheets need to be manually downloaded ever
 
 ## Non-standard Data
 
-The majority of the datasets available are all stored in a similar format, with data organised by date and a standard set of metadata. There are a few series that do not follow this template, as indicated in the final section of this document, and for these the spreadsheets are just downloaded and read into a list of data frames, one for each sheet, with no organising or cleaning.
-
-## Release Calendar
-
-The Reserve Bank provide a release timetable for their datasets (https://www.rbnz.govt.nz/statistics/statistics-release-calendar). This can be retrieved by the RBNZ package using the `getReleaseCalendar` function but it requires the RSelenium package to be installed (https://CRAN.R-project.org/package=RSelenium).
-
-There are a number of drivers that RSelenium can use; the `getReleaseCalendar` function is implemented such that the default option is to use PhantomJS (https://phantomjs.org/). If this is installed and on your path then you should be able to simply call:
-
-
-```{r, echo = TRUE, eval = FALSE, tidy = FALSE}
-x <- RBNZ::getReleaseCalendar()
-```
-
-If that doesn't work or you don't want to install PhantomJS the other option is to use a headless Firefox or Chrome browser. The former requires geckodriver to be installed and on your path (https://github.com/mozilla/geckodriver), while the latter requires ChromeDriver (https://sites.google.com/a/chromium.org/chromedriver/). They also require a flag to be passed to RSelenium::rsDriver to signal that a headless browser should be used:
-
-
-```{r, echo = TRUE, eval = FALSE, tidy = FALSE}
-x <- getReleaseCalendar(browser = 'firefox',
-                        extraCapabilities = list("moz:firefoxOptions" =
-                                                     list(args = list('--headless')))
-                        )
-
-x <- getReleaseCalendar(browser = 'chrome',
-                        extraCapabilities = list("chromeOptions" =
-                                                     list(args = list('--headless')))
-                        )
-```
-
-You might need to use the geckover or chromever arguments to RSelenium::rDriver (passed through getReleaseCalendar using ...) to ensure that your browser and driver versions are compatible.
+The majority of the datasets available are all stored in a similar format, with data organised by date and a standard set of metadata. There are a few series that do not follow this template, as indicated in the next section, and for these the spreadsheets are just downloaded and read into a list of data frames, one for each sheet, with some basic attempts at cleaning up dates, column headers, and so on.
 
 ## Available Data
 
 ```{r, echo = FALSE, eval = TRUE, tidy = FALSE}
 x <- RBNZ:::availableData()
-for (ii in 1:nrow(x)){
+for (ii in seq_len(nrow(x))){
   if (nchar(x[ii, 3]) > 50)
     x[ii, 3] <- paste0(substring(x[ii, 3], 1, 47), '...')
 }
 print(x, row.names = FALSE)
 ```
+
+
+# Development Notes
+
+When I first wrote this the website was structured differently and didn't have a data file summary page like it does [now](https://www.rbnz.govt.nz/statistics/series/data-file-index-page). As as result the list of available series was hard-coded into the package. That could be fixed to always get an up to date listing now except that due to the Cloudflare issues mentioned earlier, many users wouldn't be able to access that functionality. As a result the package still uses the hard coded list of series and I haven't rewritten it to use the data summary page, hence it might sometimes be out of date if I am behind on updates for any new series.

@@ -2,9 +2,9 @@
 % Please edit documentation in R/seriesDescriptions.R
 \name{SDDS}
 \alias{SDDS}
-\title{NZ's International Reserves and Foreign Currency Liquidity}
+\title{New Zealand's International Reserves and Foreign Currency Liquidity}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/sdds} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/international-position/new-zealands-international-reserves-and-foreign-currency-liquidity} for a full description.
 }
 \note{
 This is a non-standard dataset.

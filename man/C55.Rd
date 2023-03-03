@@ -4,6 +4,6 @@
 \alias{C55}
 \title{Other Financial Corporations Analytical Accounts}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/c55-other-financial-corporations-analytical-accounts} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/lending-and-monetary/other-financial-corporations-analytical-accounts} for a full description.
 }
 \keyword{internal}

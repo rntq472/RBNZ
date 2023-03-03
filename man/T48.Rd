@@ -4,6 +4,6 @@
 \alias{T48}
 \title{Wholesale Trusts and Other Funds}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/t48} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/non-banks-and-other-financial-institutions/wholesale-trusts-and-other-funds-assets-by-product-type} for a full description.
 }
 \keyword{internal}

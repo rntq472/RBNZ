@@ -4,7 +4,7 @@
 \alias{C66}
 \title{Bank Customer Lending Stocks}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/c66-bank-customer-lending-stocks}
+See \url{https://www.rbnz.govt.nz/statistics/series/lending-and-monetary/bank-customer-lending-stocks}
 for a full description.
 }
 \keyword{internal}

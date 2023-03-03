@@ -7,7 +7,7 @@
 \item{option}{Allowed values are \dQuote{default} (default) and \dQuote{longrun}.}
 }
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/s33-banks-assets-loans-fully-secured-by-residential-mortgage-by-repricing}
+See \url{https://www.rbnz.govt.nz/statistics/series/registered-banks/banks-assets-loans-fully-secured-by-residential-mortgage}
 for a full description.
 }
 \keyword{internal}

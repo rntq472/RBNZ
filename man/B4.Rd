@@ -8,6 +8,6 @@
 and \dQuote{EUR}.}
 }
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/b4} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/foreign-exchange-turnover} for a full description.
 }
 \keyword{internal}

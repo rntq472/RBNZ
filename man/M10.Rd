@@ -4,6 +4,6 @@
 \alias{M10}
 \title{Housing}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/m10} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/economic-indicators/housing} for a full description.
 }
 \keyword{internal}

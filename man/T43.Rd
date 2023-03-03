@@ -4,6 +4,6 @@
 \alias{T43}
 \title{KiwiSaver}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/t43} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/non-banks-and-other-financial-institutions/kiwisaver-assets-by-sector} for a full description.
 }
 \keyword{internal}

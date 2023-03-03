@@ -4,6 +4,6 @@
 \alias{T1}
 \title{Non Banks: Balance Sheet}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/t1} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/non-banks-and-other-financial-institutions/non-banks-balance-sheet} for a full description.
 }
 \keyword{internal}

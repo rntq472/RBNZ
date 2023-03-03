@@ -4,6 +4,6 @@
 \alias{M8}
 \title{Overseas Trade}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/m8} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/economic-indicators/overseas-trade} for a full description.
 }
 \keyword{internal}

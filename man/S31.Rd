@@ -4,7 +4,7 @@
 \alias{S31}
 \title{Banks: Assets – Loans by Purpose}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/s31-banks-assets-loans-by-purpose}
+See \url{https://www.rbnz.govt.nz/statistics/series/registered-banks/banks-assets-loans-by-purpose}
 for a full description.
 }
 \keyword{internal}

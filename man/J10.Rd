@@ -4,7 +4,7 @@
 \alias{J10}
 \title{Insurance: Income Statement}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/j10-insurance-income-statement}
+See \url{https://www.rbnz.govt.nz/statistics/series/insurance-financial-statistics/insurance-income-statement}
 for a full description.
 }
 \keyword{internal}

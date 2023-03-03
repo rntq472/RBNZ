@@ -4,7 +4,7 @@
 \alias{B20}
 \title{New Residential Mortgage Standard Interest Rates}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/b20-new-customer-average-rate}
+See \url{https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/new-residential-mortgage-standard-interest-rates}
 for a full description.
 }
 \keyword{internal}

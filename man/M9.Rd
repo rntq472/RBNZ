@@ -4,6 +4,6 @@
 \alias{M9}
 \title{Labour Market}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/m9} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/economic-indicators/labour-market} for a full description.
 }
 \keyword{internal}

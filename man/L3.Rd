@@ -4,6 +4,6 @@
 \alias{L3}
 \title{Face Value of Funding by Residual Maturity ($m)}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/l3} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/registered-banks/banks-face-value-of-funding-by-residual-maturity} for a full description.
 }
 \keyword{internal}

@@ -4,6 +4,6 @@
 \alias{T21}
 \title{Deposit Taking Finance Companies: Balance Sheet}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/t21} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/non-banks-and-other-financial-institutions/deposit-taking-finance-companies-balance-sheet} for a full description.
 }
 \keyword{internal}

@@ -2,6 +2,7 @@
 % Please edit documentation in R/RBNZ.R
 \docType{package}
 \name{RBNZ}
+\alias{RBNZ-package}
 \alias{RBNZ}
 \title{Access Data from the Reserve Bank of New Zealand Website}
 \description{
@@ -16,7 +17,14 @@ a method to download those spreadsheets and read them directly into R.
 }
 \details{
 The copyright notice for this data can be found at
-         \url{https://www.rbnz.govt.nz/copyright}.
+\url{https://www.rbnz.govt.nz/about-our-site/terms-of-use}.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item Report bugs at \url{https://github.com/rntq472/RBNZ/issues}
+}
+
 }
 \author{
 Jasper Watson

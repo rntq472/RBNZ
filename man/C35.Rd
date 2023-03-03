@@ -4,6 +4,6 @@
 \alias{C35}
 \title{Residential Mortgage Loan Reconciliation}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/c35} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/lending-and-monetary/residential-mortgage-loan-reconciliation} for a full description.
 }
 \keyword{internal}

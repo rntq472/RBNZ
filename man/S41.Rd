@@ -4,7 +4,7 @@
 \alias{S41}
 \title{Banks: Liabilities – Deposits by Industry}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/s41-banks-liabilities-deposits-by-industry}
+See \url{https://www.rbnz.govt.nz/statistics/series/registered-banks/banks-liabilities-deposits-by-industry}
 for a full description.
 }
 \keyword{internal}

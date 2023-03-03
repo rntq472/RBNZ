@@ -4,7 +4,7 @@
 \alias{F3}
 \title{Bank Notes in the Hands of the Public}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/f3} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/reserve-bank/bank-notes-in-the-hands-of-the-public} for a full description.
 }
 \note{
 This data is in a non-standard format.

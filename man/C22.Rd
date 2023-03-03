@@ -4,6 +4,6 @@
 \alias{C22}
 \title{Household Balance Sheet}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/c22} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/households/household-balance-sheet} for a full description.
 }
 \keyword{internal}

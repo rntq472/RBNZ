@@ -4,6 +4,6 @@
 \alias{M2}
 \title{Consumption}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/m2} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/economic-indicators/consumption} for a full description.
 }
 \keyword{internal}

@@ -4,7 +4,7 @@
 \alias{B25}
 \title{New Interest Bearing Call Savings Account Interest Rates}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/b25-new-interest-bearing-call-savings-account-interest-rates}
+See \url{https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/new-interest-bearing-call-savings-account-interest-rates}
 for a full description.
 }
 \keyword{internal}

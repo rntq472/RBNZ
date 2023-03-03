@@ -4,6 +4,6 @@
 \alias{D30}
 \title{Holdings of Central Government Debt Securities}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/d30} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/new-zealand-debt-securities/holdings-of-central-government-debt-securities} for a full description.
 }
 \keyword{internal}

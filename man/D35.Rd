@@ -4,6 +4,6 @@
 \alias{D35}
 \title{Holdings of Kauri Bonds (Nominal Value)}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/d35} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/new-zealand-debt-securities/holdings-of-kauri-bonds} for a full description.
 }
 \keyword{internal}

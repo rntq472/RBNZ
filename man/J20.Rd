@@ -4,7 +4,7 @@
 \alias{J20}
 \title{Insurance: Balance Sheet}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/j20-insurance-balance-sheet}
+See \url{https://www.rbnz.govt.nz/statistics/series/insurance-financial-statistics/insurance-balance-sheet}
 for a full description.
 }
 \keyword{internal}
