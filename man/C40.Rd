@@ -4,7 +4,7 @@
 \alias{C40}
 \title{Residential Mortgage Lending by Debt-To-Income Purpose Use}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/c40-residential-mortgage-lending-by-debt-to-income-dti-purpose-use}
+See \url{https://www.rbnz.govt.nz/statistics/series/lending-and-monetary/residential-mortgage-lending-by-debt-to-income-dti-purpose-use}
 for a full description.
 }
 \keyword{internal}

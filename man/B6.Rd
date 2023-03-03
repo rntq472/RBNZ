@@ -4,7 +4,7 @@
 \alias{B6}
 \title{Yields on Loans}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/b6-yields-on-loans} for a full
+See \url{https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/yields-on-loans} for a full
 description.
 }
 \keyword{internal}

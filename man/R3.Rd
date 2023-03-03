@@ -4,6 +4,6 @@
 \alias{R3}
 \title{Reserve Bank Analytical Accounts}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/r3} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/reserve-bank/our-analytical-accounts} for a full description.
 }
 \keyword{internal}

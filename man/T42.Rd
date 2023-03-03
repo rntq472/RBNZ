@@ -4,6 +4,6 @@
 \alias{T42}
 \title{Life Insurance}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/t42} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/non-banks-and-other-financial-institutions/life-insurance-assets-by-sector} for a full description.
 }
 \keyword{internal}

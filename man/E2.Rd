@@ -4,6 +4,6 @@
 \alias{E2}
 \title{New Zealand's Position with the IMF}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/e2} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/international-position/new-zealands-position-with-the-international-monetary-fund} for a full description.
 }
 \keyword{internal}

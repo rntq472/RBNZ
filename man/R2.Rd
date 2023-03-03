@@ -4,6 +4,6 @@
 \alias{R2}
 \title{Reserve Bank Statistical Balance Sheet}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/r2} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/reserve-bank/our-statistical-balance-sheet} for a full description.
 }
 \keyword{internal}

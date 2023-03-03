@@ -4,7 +4,7 @@
 \alias{B26}
 \title{New Interest Bearing Term Deposit Interest rates}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/b26-new-interest-bearing-term-deposit-interest-rates}
+See \url{https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/new-interest-bearing-term-deposit-interest-rate}
 for a full description.
 }
 \keyword{internal}

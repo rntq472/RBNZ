@@ -4,6 +4,6 @@
 \alias{C52}
 \title{Depository Corporations Analytical Accounts}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/c52-depository-corporations-analytical-accounts} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/lending-and-monetary/depository-corporations-analytical-accounts} for a full description.
 }
 \keyword{internal}

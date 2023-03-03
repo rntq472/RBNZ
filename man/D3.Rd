@@ -4,7 +4,7 @@
 \alias{D3}
 \title{Open Market Operations}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/d3} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/reserve-bank/open-market-operations} for a full description.
 }
 \note{
 This data is in a non-standard format.

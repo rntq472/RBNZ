@@ -4,6 +4,6 @@
 \alias{M6}
 \title{National Saving (Year Ended March)}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/m6} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/economic-indicators/national-saving} for a full description.
 }
 \keyword{internal}

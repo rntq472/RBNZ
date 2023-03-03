@@ -4,7 +4,7 @@
 \alias{B21}
 \title{New Residential Mortgage Special Interest Rates}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/b21-new-residential-mortgage-special-interest-rates}
+See \url{https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/new-residential-mortgage-special-interest-rates}
 for a full description.
 }
 \keyword{internal}

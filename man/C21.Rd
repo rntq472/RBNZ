@@ -4,6 +4,6 @@
 \alias{C21}
 \title{Key Household Financial Statistics}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/c21} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/households/key-household-financial-statistics} for a full description.
 }
 \keyword{internal}

@@ -7,7 +7,7 @@
 \item{option}{Allowed values are \dQuote{default} (default) and \dQuote{longrun}.}
 }
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/c50-money-and-credit-aggregates}
+See \url{https://www.rbnz.govt.nz/statistics/series/lending-and-monetary/depository-corporations-money-and-credit-aggregates}
 for a full description.
 }
 \keyword{internal}

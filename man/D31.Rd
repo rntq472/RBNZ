@@ -4,6 +4,6 @@
 \alias{D31}
 \title{Non-Resident Holdings of Individual Bonds (Nominal Value)}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/d31} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/new-zealand-debt-securities/non-resident-holdings-of-individual-bonds} for a full description.
 }
 \keyword{internal}

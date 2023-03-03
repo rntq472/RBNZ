@@ -4,7 +4,7 @@
 \alias{B27}
 \title{New Interest Bearing Term PIE Deposits Interest Rates}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/b27-new-interest-bearing-term-pie-deposits-interest-rates}
+See \url{https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/new-interest-bearing-term-portfolio-investment-entity-deposit-interest-rates}
 for a full description.
 }
 \keyword{internal}

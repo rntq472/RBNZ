@@ -4,11 +4,10 @@
 \alias{S10}
 \title{Banks: Balance Sheet}
 \arguments{
-\item{option}{Allowed values are \dQuote{default} (default) and
-\dQuote{moredetail}.}
+\item{option}{Allowed values are \dQuote{default} (default), \dQuote{longrun}, and \dQuote{moredetail}.}
 }
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/s10-banks-balance-sheet} for
-a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/registered-banks/banks-balance-sheet}
+for a full description.
 }
 \keyword{internal}

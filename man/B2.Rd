@@ -8,10 +8,10 @@
 \dQuote{monthly}, and \dQuote{monthlyclose}.}
 }
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/b2} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/wholesale-interest-rates} for a full description.
 }
 \note{
 The historical data is split across multiple files at source. We download
-      all of them and merge together to form a complete history.
+all of them and merge together to form a complete history.
 }
 \keyword{internal}

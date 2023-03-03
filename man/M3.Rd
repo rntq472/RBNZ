@@ -4,6 +4,6 @@
 \alias{M3}
 \title{Investment}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/m3} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/economic-indicators/investment} for a full description.
 }
 \keyword{internal}

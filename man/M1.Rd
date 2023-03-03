@@ -7,6 +7,6 @@
 \item{option}{Allowed values are \dQuote{default} (default) and \dQuote{longrun}.}
 }
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/m1} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/economic-indicators/prices} for a full description.
 }
 \keyword{internal}

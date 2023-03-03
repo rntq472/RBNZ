@@ -4,6 +4,6 @@
 \alias{M5}
 \title{Gross Domestic Product}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/m5} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/economic-indicators/gross-domestic-product} for a full description.
 }
 \keyword{internal}

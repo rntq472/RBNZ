@@ -3,15 +3,7 @@
 \name{C30}
 \alias{C30}
 \title{New Residential Mortgage Lending by Loan-To-Valuation Ratio}
-\arguments{
-\item{option}{Allowed values are \dQuote{default} (default) and \dQuote{longrun}.}
-}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/c30} for a full description.
-}
-\note{
-There are a few other files present on the webpage for this series but
-      they are not downloaded. You will need to retrieve them manually if you
-      want them.
+See \url{https://www.rbnz.govt.nz/statistics/series/lending-and-monetary/new-residential-mortgage-lending-by-loan-to-valuation-ratio} for a full description.
 }
 \keyword{internal}

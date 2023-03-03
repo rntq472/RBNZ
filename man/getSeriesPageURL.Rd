@@ -13,7 +13,7 @@ getSeriesPageURL(series)
 Character string giving the URL of the series webpage.
 }
 \description{
-Determine the URL of a Webpage Pertaining to a Series
+Deprecated - the series pages are no longer used.
 }
 \author{
 Jasper Watson

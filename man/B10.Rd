@@ -4,6 +4,6 @@
 \alias{B10}
 \title{TWI Weights}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/b10} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/trade-weighted-index-weights-and-trade-volumes} for a full description.
 }
 \keyword{internal}

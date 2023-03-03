@@ -32,17 +32,17 @@ reading it.}
 }
 \value{
 The contents of the spreadsheet. For most series this will be in the
-        form of a list of two data frames, one called \dQuote{data} and the
-        other \dQuote{meta}. For some series (see specialCases()), the data
-        is not in the standard format as the rest and so is just returned
-        directly as the results of read_xlsx for each sheet in the spreadsheet.
+form of a list of two data frames, one called \dQuote{data} and the
+other \dQuote{meta}. For some series (see specialCases()), the data
+is not in the standard format as the rest and so is just returned
+directly as the results of read_xlsx for each sheet in the spreadsheet.
 }
 \description{
 Read a Downloaded Spreadsheet
 }
 \note{
 Series B13 doesn't have a full date specified, only year or month and
-      year. These values values are returned as the first of the month/year.
+year. These values values are returned as the first of the month/year.
 }
 \author{
 Jasper Watson

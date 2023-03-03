@@ -12,7 +12,8 @@ readSeriesPage(series, quiet = TRUE, destDir, deleteFiles, wait = 60)
 \item{quiet}{Logical to be passed to utils::download.file.}
 
 \item{destDir}{File path to a directory in which to place the downloaded
-spreadsheets.  If not specified they will be placed into tempdir()
+spreadsheets. If not specified the value of getOption("RBNZ.destDir") will
+be checked. If that is NULL too then the files will be placed into tempdir()
 and deleted on exit.}
 
 \item{wait}{Numeric giving the number of seconds to wait between downloads.
@@ -22,10 +23,10 @@ spreadsheet would have two downloads sixty seconds apart.}
 }
 \value{
 An XML document returned by xml2::read_html containing the webpage
-        pertaining to the desired series.
+pertaining to the desired series.
 }
 \description{
-Read a Series Webpage Into an XML object
+Deprecated - the series pages are no longer used.
 }
 \author{
 Jasper Watson

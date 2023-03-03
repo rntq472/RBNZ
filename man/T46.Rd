@@ -4,6 +4,6 @@
 \alias{T46}
 \title{Cash Management Trusts}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/t46} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/non-banks-and-other-financial-institutions/cash-management-trusts-assets-by-sector} for a full description.
 }
 \keyword{internal}

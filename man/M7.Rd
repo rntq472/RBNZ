@@ -4,6 +4,6 @@
 \alias{M7}
 \title{Balance of Payments and International Investment Position}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/m7} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/economic-indicators/balance-of-payments-and-international-investment-position} for a full description.
 }
 \keyword{internal}

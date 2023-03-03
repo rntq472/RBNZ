@@ -4,6 +4,6 @@
 \alias{L2}
 \title{Core Funding Ratio}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/l2} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/registered-banks/banks-core-funding-ratio} for a full description.
 }
 \keyword{internal}

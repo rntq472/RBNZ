@@ -4,7 +4,7 @@
 \alias{C65}
 \title{Bank Customer Lending Flows}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/c65-bank-customer-lending-flows}
+See \url{https://www.rbnz.govt.nz/statistics/series/lending-and-monetary/bank-customer-lending-flows}
 for a full description.
 }
 \keyword{internal}

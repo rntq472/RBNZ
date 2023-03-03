@@ -4,6 +4,6 @@
 \alias{T41}
 \title{Managed Fund Assets}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/t41} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/non-banks-and-other-financial-institutions/managed-funds-assets-by-sector} for a full description.
 }
 \keyword{internal}

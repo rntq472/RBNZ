@@ -4,7 +4,7 @@
 \alias{D12}
 \title{Standing Facilities}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/d12} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/reserve-bank/standing-facilities} for a full description.
 }
 \note{
 This data is in a non-standard format.

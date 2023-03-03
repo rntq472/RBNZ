@@ -7,6 +7,6 @@
 \item{option}{Allowed values are \dQuote{issued} (default) and \dQuote{used}.}
 }
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/c13} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/lending-and-monetary/credit-card-spending} for a full description.
 }
 \keyword{internal}

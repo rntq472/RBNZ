@@ -8,6 +8,6 @@
 \dQuote{dailyaverage}.}
 }
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/c12} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/lending-and-monetary/credit-card-balances} for a full description.
 }
 \keyword{internal}

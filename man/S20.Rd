@@ -4,6 +4,6 @@
 \alias{S20}
 \title{Banks: Summary Income Statement and Related Ratios}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/s20} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/registered-banks/banks-summary-income-statement-and-related-ratios} for a full description.
 }
 \keyword{internal}

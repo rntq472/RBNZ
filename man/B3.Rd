@@ -4,6 +4,6 @@
 \alias{B3}
 \title{Retail Interest Rates on Lending and Deposits}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/b3} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/retail-interest-rates-on-lending-and-deposits} for a full description.
 }
 \keyword{internal}

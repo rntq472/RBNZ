@@ -4,7 +4,7 @@
 \alias{F4}
 \title{Coin Mintings}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/f4} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/reserve-bank/coin-mintings} for a full description.
 }
 \note{
 This data is in a non-standard format.

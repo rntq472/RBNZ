@@ -7,6 +7,9 @@
 \item{option}{Allowed values are \dQuote{daily} (default) and \dQuote{monthly}.}
 }
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/d9} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/new-zealand-debt-securities/government-bond-turnover} for a full description.
+}
+\note{
+The historical archive file is not returned as it is in a different format.
 }
 \keyword{internal}

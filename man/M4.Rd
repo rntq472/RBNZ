@@ -4,6 +4,6 @@
 \alias{M4}
 \title{Domestic Trade}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/m4} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/economic-indicators/domestic-trade} for a full description.
 }
 \keyword{internal}

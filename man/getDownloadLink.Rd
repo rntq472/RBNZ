@@ -19,7 +19,7 @@ webpage pertaining to the desired series.}
 Character string giving the URL of the file to be downloaded.
 }
 \description{
-Determine the URL for a File to be Downloaded
+Deprecated - the series pages are no longer used.
 }
 \author{
 Jasper Watson

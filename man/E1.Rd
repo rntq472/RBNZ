@@ -4,6 +4,6 @@
 \alias{E1}
 \title{New Zealand's Official Overseas Reserves}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/e1} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/international-position/new-zealands-official-overseas-reserves} for a full description.
 }
 \keyword{internal}

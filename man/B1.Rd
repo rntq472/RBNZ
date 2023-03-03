@@ -7,10 +7,10 @@
 \item{option}{Allowed values are \dQuote{daily} (default) and \dQuote{monthly}.}
 }
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/b1} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/exchange-rates-and-the-trade-weighted-index} for a full description.
 }
 \note{
 The historical data is split across multiple files at source. We download
-      all of them and merge together to form a complete history.
+all of them and merge together to form a complete history.
 }
 \keyword{internal}

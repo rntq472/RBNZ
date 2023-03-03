@@ -4,7 +4,7 @@
 \alias{S34}
 \title{Banks: Assets – Loans and Repos by Industry}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/s34-banks-assets-loans-by-industry}
+See \url{https://www.rbnz.govt.nz/statistics/series/registered-banks/banks-assets-loans-and-repos-by-industry}
 for a full description.
 }
 \keyword{internal}

@@ -16,7 +16,7 @@ a method to download those spreadsheets and read them directly into R.
 }
 \details{
 The copyright notice for this data can be found at
-         \url{https://www.rbnz.govt.nz/copyright}.
+\url{https://www.rbnz.govt.nz/about-our-site/terms-of-use}.
 }
 \author{
 Jasper Watson

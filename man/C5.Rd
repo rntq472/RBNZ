@@ -4,6 +4,6 @@
 \alias{C5}
 \title{Sector Lending}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/c5} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/lending-and-monetary/registered-banks-and-non-bank-lending-institutions-sector-lending} for a full description.
 }
 \keyword{internal}

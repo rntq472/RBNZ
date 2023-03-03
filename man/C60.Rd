@@ -4,11 +4,11 @@
 \alias{C60}
 \title{Credit Conditions Survey}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/c60-credit-conditions-survey}
+See \url{https://www.rbnz.govt.nz/statistics/series/lending-and-monetary/credit-conditions}
 for a full description.
 }
 \note{
 There is a second dataset present (the ec60 file) which is not retrieved
-      as it is in a non-standard format.
+as it is in a non-standard format.
 }
 \keyword{internal}

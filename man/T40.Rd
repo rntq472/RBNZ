@@ -4,6 +4,6 @@
 \alias{T40}
 \title{Funds Under Management}
 \description{
-See \url{https://www.rbnz.govt.nz/statistics/t40} for a full description.
+See \url{https://www.rbnz.govt.nz/statistics/series/non-banks-and-other-financial-institutions/managed-funds-funds-under-management} for a full description.
 }
 \keyword{internal}
